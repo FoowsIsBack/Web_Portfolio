@@ -3,6 +3,7 @@ import './assets/Css/Page.css'
 
 function Portfolio(){
   return(
+    <>
     <div className="container">
       <div className="nav">
         <a href="">
@@ -19,6 +20,7 @@ function Portfolio(){
         </div>
       </div>
     </div>
+    </>
   )
 }
 export default Portfolio

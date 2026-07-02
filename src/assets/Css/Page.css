@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0D1117;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 750;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav > a:hover{
+    color: #32E012;
+    transition: 0.4s;
+}
+
+.nav{
+    background-color: #01070D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 45px;
+}
+
+.nav2{
+    display: flex;
+    justify-content: center;
+}
+
+.nav2 a{
+    color: rgb(195, 192, 192);
+}
+
+.nav2 > ul li a:hover{
+    transition: 0.4s;
+    color: #32E012;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    border-left: 2px solid grey;
+}
+
+.container{
+    border-bottom: 2px solid grey;
+}
+
+.nav2 a[href="/stats"]{
+    color: #39FF14;
+    border-bottom: 2px solid #39FF14;
+    padding-bottom: 5px;
+}

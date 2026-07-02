@@ -25,11 +25,6 @@ a{
     padding: 0 45px;
 }
 
-.nav2{
-    display: flex;
-    justify-content: center;
-}
-
 .nav2 a{
     color: rgb(195, 192, 192);
 }

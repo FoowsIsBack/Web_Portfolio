@@ -6,6 +6,7 @@ import Contact from './Contact.jsx'
 import Project from './Projects.jsx'
 import Certificate from './Certificate.jsx'
 import Skills from './Skills.jsx'
+import Experience from './Experience.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/projects" element={<Project />} />
       <Route path="/certificate" element={<Certificate />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/experience" element={<Experience />} />
     </Routes>
     </BrowserRouter>
   </StrictMode>,

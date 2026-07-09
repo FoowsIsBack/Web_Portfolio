@@ -49,6 +49,7 @@ ul{
     border-bottom: 2px solid grey;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .nav2 a[href="/"]{
@@ -62,7 +63,7 @@ ul{
     align-items: flex-start;
     width: 20%;
     margin-top: 80px;
-    margin-left: 18%;
+    margin-left: 12%;
     gap: 15%;
 }
 
@@ -90,7 +91,7 @@ img[alt="message"]{
 .message{
     position: absolute;
     top: 38%;
-    left: 33%;
+    left: 27%;
 }
 
 .message > p{
@@ -243,7 +244,7 @@ audio::-webkit-media-controls-play-button{
 }
 
 .example{
-    margin-left: 15%;
+    margin-left: 9%;
     display: flex;
     justify-content: center;
     gap: 8%;
@@ -280,4 +281,84 @@ audio::-webkit-media-controls-play-button{
 
 .example img:hover{
     border: 1px solid white;
+}
+
+.example1{
+    margin-left: 12%;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 30px;
+    width: 80%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12%;
+    margin-left: 12%;
+    width: 1400px;
+    border-bottom: 2px solid grey;
+}
+
+.parking, .calcu, .kirotask, .entrance{
+    margin-top: 30px;
+    padding: 30px;
+    width: 550px;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.parking:hover, .calcu:hover, .kirotask:hover, .entrance:hover{
+    transform: scale(1.02);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
+
+.parking img, .calcu img, .kirotask img, .entrance img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.page, .page1{
+    display: flex;
+    gap: 10%;
+}
+
+.page1{
+    margin-top: 50px;
+}
+
+.description > p{
+    text-align: center;
+    color: #7F49DA;
+    border: 1px solid #7F49DA;
+    background-color: #0f0322;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.description{
+    display: flex;
+    gap: 10px;
+}
+
+.description1 > p{
+    color: rgb(195, 192, 192);
+    font-weight: normal;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.description1 > h4{
+    color: red;
+    margin-bottom: 0;
 }

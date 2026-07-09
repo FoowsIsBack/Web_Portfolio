@@ -24,6 +24,13 @@ import github from './assets/tech_icons/Developer_Tools/github.png'
 import postman from './assets/tech_icons/Developer_Tools/postman.png'
 import vite from './assets/tech_icons/Developer_Tools/vite.png'
 import vscode from './assets/tech_icons/Developer_Tools/vscode.png'
+import parking from './assets/Projects_image/evsupsm.png'
+import calculator from './assets/Projects_image/calculator.png'
+import kirotask from './assets/Projects_image/kirotask.png'
+import learning from './assets/Projects_image/hub.png'
+import sas from './assets/Projects_image/sas.png'
+import sem from './assets/Projects_image/sem.png'
+import sms from './assets/Projects_image/sms.png'
 
 function Portfolio(){
   return(
@@ -74,7 +81,7 @@ function Portfolio(){
             <p>I am passionate about exploring the latest technologies and solving complex problems. With a basic foundation in computer science, programming, and information technology, I am continuously learning and improving my skills in web development and software development.</p>
           </div>
             <div className="github">
-                <h3>Contribution Map</h3>
+                <h3>GitHub Contributions</h3>
                 <a href="https://github.com/FoowsIsBack" target='_blank'>
                   <div className="github_graph">
                     <Contributions />
@@ -127,6 +134,67 @@ function Portfolio(){
               <img src={postman} alt="postman"/>
               <img src={vite} alt="vite"/>
               <img src={vscode} alt="vscode"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="projects">
+        <div className="menu">
+          <h1>PROJECTS</h1>
+          <a href="/projects">
+            <p>SEE MORE ➙</p>
+          </a>
+        </div>
+        <div className="example1">
+          <div className="page">
+            <div className="parking">
+              <img src={parking} alt="parking"/>
+              <div className="description">
+                <p>FastAPI</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>MySQL</p>
+              </div>
+              <div className="description1">
+                <h4>Under Development</h4>
+              </div>
+            </div>
+            <div className="calcu">
+              <img src={sas} alt="calculator"/>
+              <div className="description">
+                <p>Python</p>
+                <p>SQLite</p>
+              </div>
+              <div className="description1">
+                <h4>Under Development</h4>
+                <p>Student Attendance System Dashboard is designed to help users manage and monitor student attendance records efficiently. It provides an organized interface for adding, updating, deleting, and viewing attendance information.</p>
+              </div>
+            </div>
+          </div>
+          <div className="page1">
+            <div className="kirotask">
+              <img src={kirotask} alt="kirotask"/>
+              <div className="description">
+                <p>Dart</p>
+                <p>Flutter</p>
+              </div>
+              <div className="description1">
+                <p>KiroTask is a modern and minimal task management app designed to help users stay organized, focused, and productive. It provides a clean interface with powerful features for managing daily tasks efficiently.</p>
+              </div>
+            </div>
+            <div className="entrance">
+              <img src={sem} alt="entrance"/>
+              <div className="description">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>Php</p>
+                <p>MySQL</p>
+              </div>
+              <div className="description1">
+                <h4>Under Development</h4>
+              </div>
             </div>
           </div>
         </div>

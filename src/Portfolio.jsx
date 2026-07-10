@@ -147,57 +147,72 @@ function Portfolio(){
         </div>
         <div className="example1">
           <div className="page">
-            <div className="parking">
-              <img src={parking} alt="parking"/>
-              <div className="description">
-                <p>FastAPI</p>
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>JavaScript</p>
-                <p>MySQL</p>
+            <a href="https://github.com/FoowsIsBack/EVSU_Vehicle_GatePass_System" target='_blank'>
+              <div className="parking">
+                <img src={parking} alt="parking"/>
+                <div className="description">
+                  <p>FastAPI</p>
+                  <p>HTML</p>
+                  <p>CSS</p>
+                  <p>JavaScript</p>
+                  <p>MySQL</p>
+                </div>
+                <div className="description1">
+                  <h4>Under Development</h4>
+                  <p>EVSU Vehicle GatePass is a web-based application designed to simplify the vehicle gate pass request process for campus entry. Users can register their vehicle information and request a digital gate pass, while administrators review and manage all requests through a centralized dashboard.</p>
+                </div>
               </div>
-              <div className="description1">
-                <h4>Under Development</h4>
+            </a>
+            <a href="https://github.com/FoowsIsBack/Student_Attendance_System" target='_blank'>
+              <div className="calcu">
+                <img src={sas} alt="calculator"/>
+                <div className="description">
+                  <p>Python</p>
+                  <p>SQLite</p>
+                </div>
+                <div className="description1">
+                  <h4>Under Development</h4>
+                  <p>Student Attendance System Dashboard is designed to help users manage and monitor student attendance records efficiently. It provides an organized interface for adding, updating, deleting, and viewing attendance information.</p>
+                </div>
               </div>
-            </div>
-            <div className="calcu">
-              <img src={sas} alt="calculator"/>
-              <div className="description">
-                <p>Python</p>
-                <p>SQLite</p>
-              </div>
-              <div className="description1">
-                <h4>Under Development</h4>
-                <p>Student Attendance System Dashboard is designed to help users manage and monitor student attendance records efficiently. It provides an organized interface for adding, updating, deleting, and viewing attendance information.</p>
-              </div>
-            </div>
+            </a>
           </div>
           <div className="page1">
-            <div className="kirotask">
-              <img src={kirotask} alt="kirotask"/>
-              <div className="description">
-                <p>Dart</p>
-                <p>Flutter</p>
+            <a href="https://kirotask.vercel.app/" target='_blank'>
+              <div className="kirotask">
+                <img src={kirotask} alt="kirotask"/>
+                <div className="description">
+                  <p>Dart</p>
+                  <p>Flutter</p>
+                </div>
+                <div className="description1">
+                  <p>KiroTask is a modern and minimal task management app designed to help users stay organized, focused, and productive. It provides a clean interface with powerful features for managing daily tasks efficiently.</p>
+                </div>
               </div>
-              <div className="description1">
-                <p>KiroTask is a modern and minimal task management app designed to help users stay organized, focused, and productive. It provides a clean interface with powerful features for managing daily tasks efficiently.</p>
+            </a>
+            <a href="https://github.com/FoowsIsBack/Smart_Entrance_Monitoring" target='_blank'>
+              <div className="entrance">
+                <img src={sem} alt="entrance"/>
+                <div className="description">
+                  <p>HTML</p>
+                  <p>CSS</p>
+                  <p>JavaScript</p>
+                  <p>Php</p>
+                  <p>MySQL</p>
+                </div>
+                <div className="description1">
+                  <h4>Under Development</h4>
+                  <p>Smart Entrance Monitoring is an RFID-based entrance monitoring system that automatically records users' time-in and time-out through ID card scanning. All attendance logs are displayed in a centralized admin panel, providing accurate, secure, and efficient monitoring of entry and exit records.</p>
+                </div>
               </div>
-            </div>
-            <div className="entrance">
-              <img src={sem} alt="entrance"/>
-              <div className="description">
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>JavaScript</p>
-                <p>Php</p>
-                <p>MySQL</p>
-              </div>
-              <div className="description1">
-                <h4>Under Development</h4>
-              </div>
-            </div>
+            </a>
           </div>
         </div>
+      </div>
+      <div className="ending">
+        <footer>
+          <p>© 2026 Kiryll Dave U. Bangcoyo. All rights reserved.</p>
+        </footer>
       </div>
     </div>
     </>

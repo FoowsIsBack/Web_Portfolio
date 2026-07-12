@@ -83,7 +83,7 @@ function Portfolio(){
             <div className={styles.github}>
                 <h3>GitHub Contributions</h3>
                 <a href="https://github.com/FoowsIsBack" target='_blank'>
-                  <div className="github_graph">
+                  <div className={styles.github_graph}>
                     <Contributions />
                   </div>
                 </a>

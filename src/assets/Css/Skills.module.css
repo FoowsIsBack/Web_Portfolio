@@ -10,8 +10,44 @@ body{
     margin-bottom: 3%;
 }
 
+.container{
+    border-bottom: 2px solid grey;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav > a:hover{
+    color: rgb(195, 192, 192);
+    transition: 0.4s;
+}
+
+.nav{
+    background-color: #01070D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 45px;
+}
+
 .nav2 a[href="/skills"]{
     color: #2bcc0f;
     border-bottom: 2px solid #2bcc0f;
     padding-bottom: 5px;
+}
+
+.nav2 a{
+    color: rgb(195, 192, 192);
+}
+
+.nav2 > ul li a:hover{
+    transition: 0.4s;
+    color: #2bcc0f;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    border-left: 2px solid grey;
 }

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './assets/Css/Page.css'
+import styles from './assets/Css/Page.module.css';
 import profile from './assets/image/profile_bgc.jpg'
 import house from './assets/image/house.png'
 import profile2 from './assets/image/profile_whiteBG.png'
@@ -35,13 +35,13 @@ import sms from './assets/Projects_image/sms.png'
 function Portfolio(){
   return(
     <>
-    <div className="start">
-      <div className="container">
-        <div className="nav">
+    <div className={styles.start}>
+      <div className={styles.container}>
+        <div className={styles.nav}>
           <a href="/">
             <h1>Foows</h1>
           </a>
-          <div className="nav2">
+          <div className={styles.nav2}>
             <ul>
               <li><a href="/">STATS</a></li>
               <li><a href="/skills">SKILLS</a></li>
@@ -53,34 +53,34 @@ function Portfolio(){
           </div>
         </div>
       </div>
-      <div className="main">
-        <div className="left">
-          <div className="profile">
+      <div className={styles.main}>
+        <div className={styles.left}>
+          <div className={styles.profile}>
             <img src={profile} alt="profile_pic" />
-            <div className="message">
+            <div className={styles.message}>
               <img src={house} alt="message" />
               <p>Wazzupp bro 👋</p>
             </div>
           </div>
-          <div className="name">
+          <div className={styles.name}>
             <h1>Dave Bangcoyo</h1>
             <h3>• Ormoc City, Leyte</h3>
           </div>
         </div>
-        <div className="info">
-          <div className="redme">
-            <h4>FoowsIsBack<span className='md'>/</span>README.<span className='md'>md</span></h4>
-            <div className="music">
+        <div className={styles.info}>
+          <div className={styles.redme}>
+            <h4>FoowsIsBack<span className={styles.md}>/</span>README.<span className={styles.md}>md</span></h4>
+            <div className={styles.music}>
               <audio controls autoPlay loop>
                 <source src={music} type="audio/mpeg"/>
               </audio>
             </div>
           </div>
-          <div className="info2">
-            <h3>Full-Stack Developer <span className='spacer'>|</span> Weekend Developer</h3>
+          <div className={styles.info2}>
+            <h3>Full-Stack Developer <span className={styles.spacer}>|</span> Weekend Developer</h3>
             <p>I am passionate about exploring the latest technologies and solving complex problems. With a basic foundation in computer science, programming, and information technology, I am continuously learning and improving my skills in web development and software development.</p>
           </div>
-            <div className="github">
+            <div className={styles.github}>
                 <h3>GitHub Contributions</h3>
                 <a href="https://github.com/FoowsIsBack" target='_blank'>
                   <div className="github_graph">
@@ -90,19 +90,19 @@ function Portfolio(){
             </div>
         </div>
       </div>
-      <div className="techstack">
-        <div className="menu">
+      <div className={styles.techstack}>
+        <div className={styles.menu}>
           <h1>TECH STACK</h1>
           <a href="/skills">
             <p>SEE MORE ➙</p>
           </a>
         </div>
-        <div className="example">
-          <div className="frontend">
-            <div className="title">
+        <div className={styles.example}>
+          <div className={styles.frontend}>
+            <div className={styles.title}>
               <h3>FRONTEND</h3>
             </div>
-            <div className="tech_stack">
+            <div className={styles.tech_stack}>
               <img src={html} alt="html"/>
               <img src={css} alt="css"/>
               <img src={js} alt="js"/>
@@ -110,11 +110,11 @@ function Portfolio(){
               <img src={vue} alt="vue"/>
             </div>
           </div>
-          <div className="backend">
-            <div className="title">
+          <div className={styles.backend}>
+            <div className={styles.title}>
               <h3>BACKEND</h3>
             </div>
-              <div className="tech_stack">
+              <div className={styles.tech_stack}>
                 <img src={python} alt="python"/>
                 <img src={php} alt="php"/>
                 <img src={fastapi} alt="fastapi"/>
@@ -124,11 +124,11 @@ function Portfolio(){
                 <img src={postgresql} alt="postgresql"/>
               </div>
           </div>
-          <div className="database">
-            <div className="title">
+          <div className={styles.database}>
+            <div className={styles.title}>
               <h3>DEVELOPER TOOLS</h3>
             </div>
-            <div className="tech_stack">
+            <div className={styles.tech_stack}>
               <img src={git} alt="git"/>
               <img src={github} alt="github"/>
               <img src={postman} alt="postman"/>
@@ -138,69 +138,69 @@ function Portfolio(){
           </div>
         </div>
       </div>
-      <div className="projects">
-        <div className="menu">
+      <div className={styles.projects}>
+        <div className={styles.menu}>
           <h1>PROJECTS</h1>
           <a href="/projects">
             <p>SEE MORE ➙</p>
           </a>
         </div>
-        <div className="example1">
-          <div className="page">
+        <div className={styles.example1}>
+          <div className={styles.page}>
             <a href="https://github.com/FoowsIsBack/EVSU_Vehicle_GatePass_System" target='_blank'>
-              <div className="parking">
+              <div className={styles.parking}>
                 <img src={parking} alt="parking"/>
-                <div className="description">
+                <div className={styles.description}>
                   <p>FastAPI</p>
                   <p>HTML</p>
                   <p>CSS</p>
                   <p>JavaScript</p>
                   <p>MySQL</p>
                 </div>
-                <div className="description1">
+                <div className={styles.description1}>
                   <h4>Under Development</h4>
                   <p>EVSU Vehicle GatePass is a web-based application designed to simplify the vehicle gate pass request process for campus entry. Users can register their vehicle information and request a digital gate pass, while administrators review and manage all requests through a centralized dashboard.</p>
                 </div>
               </div>
             </a>
             <a href="https://github.com/FoowsIsBack/Student_Attendance_System" target='_blank'>
-              <div className="calcu">
+              <div className={styles.calcu}>
                 <img src={sas} alt="calculator"/>
-                <div className="description">
+                <div className={styles.description}>
                   <p>Python</p>
                   <p>SQLite</p>
                 </div>
-                <div className="description1">
+                <div className={styles.description1}>
                   <h4>Under Development</h4>
                   <p>Student Attendance System Dashboard is designed to help users manage and monitor student attendance records efficiently. It provides an organized interface for adding, updating, deleting, and viewing attendance information.</p>
                 </div>
               </div>
             </a>
           </div>
-          <div className="page1">
+          <div className={styles.page1}>
             <a href="https://kirotask.vercel.app/" target='_blank'>
-              <div className="kirotask">
+              <div className={styles.kirotask}>
                 <img src={kirotask} alt="kirotask"/>
-                <div className="description">
+                <div className={styles.description}>
                   <p>Dart</p>
                   <p>Flutter</p>
                 </div>
-                <div className="description1">
+                <div className={styles.description1}>
                   <p>KiroTask is a modern and minimal task management app designed to help users stay organized, focused, and productive. It provides a clean interface with powerful features for managing daily tasks efficiently.</p>
                 </div>
               </div>
             </a>
             <a href="https://github.com/FoowsIsBack/Smart_Entrance_Monitoring" target='_blank'>
-              <div className="entrance">
+              <div className={styles.entrance}>
                 <img src={sem} alt="entrance"/>
-                <div className="description">
+                <div className={styles.description}>
                   <p>HTML</p>
                   <p>CSS</p>
                   <p>JavaScript</p>
                   <p>Php</p>
                   <p>MySQL</p>
                 </div>
-                <div className="description1">
+                <div className={styles.description1}>
                   <h4>Under Development</h4>
                   <p>Smart Entrance Monitoring is an RFID-based entrance monitoring system that automatically records users' time-in and time-out through ID card scanning. All attendance logs are displayed in a centralized admin panel, providing accurate, secure, and efficient monitoring of entry and exit records.</p>
                 </div>
@@ -209,7 +209,7 @@ function Portfolio(){
           </div>
         </div>
       </div>
-      <div className="ending">
+      <div className={styles.ending}>
         <footer>
           <p>© 2026 Kiryll Dave U. Bangcoyo. All rights reserved.</p>
         </footer>

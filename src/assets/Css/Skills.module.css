@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0D1117;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 750;
+}
+
+.start{
+    margin-bottom: 3%;
+}
+
+.nav2 a[href="/skills"]{
+    color: #2bcc0f;
+    border-bottom: 2px solid #2bcc0f;
+    padding-bottom: 5px;
+}

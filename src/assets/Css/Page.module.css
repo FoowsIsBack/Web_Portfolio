@@ -46,7 +46,7 @@ ul{
 }
 
 .container{
-    border-bottom: 2px solid grey;
+    border-bottom: 1px solid grey;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -227,7 +227,7 @@ audio::-webkit-media-controls-play-button{
     margin-top: 12%;
     margin-left: 18%;
     width: 1400px;
-    border-bottom: 2px solid grey;
+    border-bottom: 1px solid grey;
 }
 
 .menu > h1{
@@ -299,7 +299,7 @@ audio::-webkit-media-controls-play-button{
     margin-top: 12%;
     margin-left: 12%;
     width: 1400px;
-    border-bottom: 2px solid grey;
+    border-bottom: 1px solid grey;
 }
 
 .parking, .calcu, .kirotask, .entrance{
@@ -368,7 +368,7 @@ audio::-webkit-media-controls-play-button{
 
 .ending{
     margin-top: 8%;
-    border-top: 2px solid grey;
+    border-top: 1px solid grey;
 }
 
 .ending p{

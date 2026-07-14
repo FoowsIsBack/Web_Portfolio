@@ -31,6 +31,8 @@ import learning from './assets/Projects_image/hub.png'
 import sas from './assets/Projects_image/sas.png'
 import sem from './assets/Projects_image/sem.png'
 import sms from './assets/Projects_image/sms.png'
+import flutter from './assets/tech_icons/Frameworks/flutter.png'
+import discord from './assets/tech_icons/Developer_Tools/discord.png'
 
 function Portfolio(){
   return(
@@ -106,8 +108,10 @@ function Portfolio(){
               <img src={html} alt="html"/>
               <img src={css} alt="css"/>
               <img src={js} alt="js"/>
-              <img src={react} alt="react"/>
               <img src={vue} alt="vue"/>
+              <img src={vite} alt="vite"/>
+              <img src={react} alt="react"/>
+              <img src={flutter} alt="flutter"/>
             </div>
           </div>
           <div className={styles.backend}>
@@ -132,8 +136,8 @@ function Portfolio(){
               <img src={git} alt="git"/>
               <img src={github} alt="github"/>
               <img src={postman} alt="postman"/>
-              <img src={vite} alt="vite"/>
               <img src={vscode} alt="vscode"/>
+              <img src={discord} alt="discord"/>
             </div>
           </div>
         </div>

@@ -177,7 +177,7 @@ audio::-webkit-media-controls-play-button{
 }
 
 ::selection {
-    background-color: red;
+    background-color: #01070D;
     color: white;
 }
 

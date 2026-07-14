@@ -176,7 +176,7 @@ audio::-webkit-media-controls-play-button{
     filter: brightness(0) invert(1);
 }
 
-::selection {
+::selection{
     background-color: #01070D;
     color: white;
 }

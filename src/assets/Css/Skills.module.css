@@ -11,15 +11,10 @@ body{
 }
 
 .container{
-    border-bottom: 2px solid grey;
+    border-bottom: 1px solid grey;
     position: sticky;
     top: 0;
     z-index: 1;
-}
-
-.nav > a:hover{
-    color: rgb(195, 192, 192);
-    transition: 0.4s;
 }
 
 .nav{
@@ -50,4 +45,71 @@ ul{
     gap: 30px;
     list-style: none;
     border-left: 2px solid grey;
+}
+
+.menu{
+    margin-top: 3%;
+    margin-left: 12%;
+    width: 1400px;
+    border-bottom: 1px solid grey;
+}
+
+.menu > h1{
+    text-align: center;
+    color: white;
+}
+
+.example, .example2{
+    margin-left: 9%;
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    margin-top: 30px;
+    width: 80%;
+}
+
+.example2{
+    margin-top: 90px;
+}
+
+.example img, .example2 img{
+    margin-left: 25px;
+    margin-bottom: 20px;
+    width: 45px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: #01070D;
+    padding: 15px;
+}
+
+.example img:hover, .example2 img:hover{
+    border: 1px solid white;
+}
+
+.frontend, .backend, .database, .operating_system, .design, .framework{
+    width: 350px;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.title{
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;
+}
+
+.title > h3{
+    text-align: center;
+    color: rgb(195, 192, 192);
+}
+
+.ending{
+    margin-top: 8%;
+    border-top: 1px solid grey;
+}
+
+.ending p{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
 }

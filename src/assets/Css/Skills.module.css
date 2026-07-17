@@ -6,10 +6,6 @@ body{
     font-weight: 750;
 }
 
-.start{
-    margin-bottom: 3%;
-}
-
 .container{
     border-bottom: 1px solid grey;
     position: sticky;
@@ -59,7 +55,7 @@ ul{
     color: white;
 }
 
-.example, .example2{
+.example{
     margin-left: 9%;
     display: flex;
     justify-content: center;
@@ -68,11 +64,7 @@ ul{
     width: 80%;
 }
 
-.example2{
-    margin-top: 90px;
-}
-
-.example img, .example2 img{
+.example img{
     margin-left: 25px;
     margin-bottom: 20px;
     width: 45px;
@@ -82,11 +74,11 @@ ul{
     padding: 15px;
 }
 
-.example img:hover, .example2 img:hover{
+.example img:hover{
     border: 1px solid white;
 }
 
-.frontend, .backend, .database, .operating_system, .design, .framework{
+.frontend, .backend, .database{
     width: 350px;
     height: auto;
     border: 1px solid gray;
@@ -103,13 +95,18 @@ ul{
     color: rgb(195, 192, 192);
 }
 
+.techstack{
+    padding-bottom: 400px;
+}
+
 .ending{
-    margin-top: 8%;
+    margin-top: 100px;
     border-top: 1px solid grey;
+    padding: 38px;
 }
 
 .ending p{
-    margin-top: 50px;
+    margin-top: 5px;
     text-align: center;
     color: white;
 }

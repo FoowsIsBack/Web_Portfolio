@@ -12,10 +12,6 @@ a{
     text-decoration: none;
 }
 
-.start{
-    margin-bottom: 3%;
-}
-
 .nav{
     background-color: #01070D;
     display: flex;
@@ -118,6 +114,14 @@ img[alt="message"]{
     line-height: 1px;
     color: rgb(158, 154, 154);
     font-size: 18px;
+}
+
+a[href="https://www.w3profile.com/davepy"], a[href="https://stackoverflow.com/users/27532465/foowsisback"]{
+    margin-right: 10px;
+}
+
+a[href="https://www.w3profile.com/davepy"]:hover, a[href="https://stackoverflow.com/users/27532465/foowsisback"]:hover, a[href="https://tryhackme.com/p/Foows"]:hover{
+    filter: brightness(0.8);
 }
 
 .info{
@@ -362,12 +366,13 @@ audio::-webkit-media-controls-play-button{
 }
 
 .ending{
-    margin-top: 8%;
+    margin-top: 100px;
     border-top: 1px solid grey;
+    padding: 38px;
 }
 
 .ending p{
-    margin-top: 50px;
+    margin-top: 5px;
     text-align: center;
     color: white;
 }

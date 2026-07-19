@@ -10,20 +10,15 @@ import { GitHubCalendar } from "react-github-calendar";
 import html from './assets/tech_icons/Frontend/html.png'
 import css from './assets/tech_icons/Frontend/css.png'
 import js from './assets/tech_icons/Frontend/js.png'
-import react from './assets/tech_icons/Frameworks/react.png'
-import java from './assets/tech_icons/Backend/java.png'
 import php from './assets/tech_icons/Backend/php.png'
 import python from './assets/tech_icons/Backend/python.png'
 import fastapi from './assets/tech_icons/Frameworks/fastapi.png'
 import mysql from './assets/tech_icons/Backend/mysql.png'
-import SQLite from './assets/tech_icons/Backend/SQLite.png'
 import postgresql from './assets/tech_icons/Backend/postgresql.png'
 import vue from './assets/tech_icons/Frontend/vue.png'
 import git from './assets/tech_icons/Developer_Tools/git.png'
 import github from './assets/tech_icons/Developer_Tools/github.png'
 import postman from './assets/tech_icons/Developer_Tools/postman.png'
-import vite from './assets/tech_icons/Developer_Tools/vite.png'
-import vscode from './assets/tech_icons/Developer_Tools/vscode.png'
 import parking from './assets/Projects_image/evsupsm.png'
 import calculator from './assets/Projects_image/calculator.png'
 import kirotask from './assets/Projects_image/kirotask.png'
@@ -32,7 +27,6 @@ import sas from './assets/Projects_image/sas.png'
 import sem from './assets/Projects_image/sem.png'
 import sms from './assets/Projects_image/sms.png'
 import flutter from './assets/tech_icons/Frameworks/flutter.png'
-import discord from './assets/tech_icons/Developer_Tools/discord.png'
 
 function Portfolio(){
   return(
@@ -67,6 +61,15 @@ function Portfolio(){
           <div className={styles.name}>
             <h1>Dave Bangcoyo</h1>
             <h3>• Ormoc City, Leyte</h3>
+            <a href="https://www.w3profile.com/davepy" target="_blank">
+              <img src="https://img.shields.io/badge/W3Schools-04AA6D?logo=w3schools&logoColor=fff" alt="W3Schools"/>
+            </a>
+            <a href="https://stackoverflow.com/users/27532465/foowsisback" target="_blank">
+              <img src="https://img.shields.io/badge/-Stack_Overflow-FE7A16?logo=stack-overflow&logoColor=white" alt="Stack Overflow"/>
+            </a>
+            <a href="https://tryhackme.com/p/Foows" target="_blank">
+              <img src="https://img.shields.io/badge/TryHackMe-212C42?logo=tryhackme&logoColor=white" alt="TryHackMe"/>
+            </a>
           </div>
         </div>
         <div className={styles.info}>
@@ -109,8 +112,6 @@ function Portfolio(){
               <img src={css} alt="css"/>
               <img src={js} alt="js"/>
               <img src={vue} alt="vue"/>
-              <img src={vite} alt="vite"/>
-              <img src={react} alt="react"/>
               <img src={flutter} alt="flutter"/>
             </div>
           </div>
@@ -122,22 +123,18 @@ function Portfolio(){
                 <img src={python} alt="python"/>
                 <img src={php} alt="php"/>
                 <img src={fastapi} alt="fastapi"/>
-                <img src={java} alt="java"/>
-                <img src={SQLite} alt="sqlite"/>
                 <img src={mysql} alt="mysql"/>
                 <img src={postgresql} alt="postgresql"/>
               </div>
           </div>
           <div className={styles.database}>
             <div className={styles.title}>
-              <h3>DEVELOPER TOOLS</h3>
+              <h3>DEVELOPMENT TOOLS</h3>
             </div>
             <div className={styles.tech_stack}>
               <img src={git} alt="git"/>
               <img src={github} alt="github"/>
               <img src={postman} alt="postman"/>
-              <img src={vscode} alt="vscode"/>
-              <img src={discord} alt="discord"/>
             </div>
           </div>
         </div>

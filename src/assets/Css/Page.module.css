@@ -176,7 +176,6 @@ audio::-webkit-media-controls-play-button{
 }
 
 ::selection{
-    background-color: #01070D;
     color: white;
 }
 
@@ -238,7 +237,7 @@ audio::-webkit-media-controls-play-button{
     color: rgb(195, 192, 192);
 }
 
-.menu > a:hover{
+.menu p:hover{
     color: red;
     transition: 0.4s;
 }

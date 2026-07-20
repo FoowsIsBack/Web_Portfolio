@@ -22,10 +22,8 @@ import postman from './assets/tech_icons/Developer_Tools/postman.png'
 import parking from './assets/Projects_image/evsupsm.png'
 import calculator from './assets/Projects_image/calculator.png'
 import kirotask from './assets/Projects_image/kirotask.png'
-import learning from './assets/Projects_image/hub.png'
-import sas from './assets/Projects_image/sas.png'
 import sem from './assets/Projects_image/sem.png'
-import sms from './assets/Projects_image/sms.png'
+import phantom from './assets/Projects_image/phantom.png'
 import flutter from './assets/tech_icons/Frameworks/flutter.png'
 
 function Portfolio(){
@@ -82,7 +80,7 @@ function Portfolio(){
             </div>
           </div>
           <div className={styles.info2}>
-            <h3>Full-Stack Developer <span className={styles.spacer}>|</span> Weekend Developer</h3>
+            <h3>Full-Stack Developer <span className={styles.spacer}>|</span></h3>
             <p>I am passionate about exploring the latest technologies and solving complex problems. With a basic foundation in computer science, programming, and information technology, I am continuously learning and improving my skills in web development and software development.</p>
           </div>
             <div className={styles.github}>
@@ -160,20 +158,19 @@ function Portfolio(){
                 </div>
                 <div className={styles.description1}>
                   <h4>Under Development</h4>
-                  <p>EVSU Vehicle GatePass is a web-based application designed to simplify the vehicle gate pass request process for campus entry. Users can register their vehicle information and request a digital gate pass, while administrators review and manage all requests through a centralized dashboard.</p>
+                  <p>EVSU Vehicle GatePass is a web based application designed to simplify the vehicle gate pass request process for campus entry. Users can register their vehicle information and request a digital gate pass, while administrators review and manage all requests through a centralized dashboard.</p>
                 </div>
               </div>
             </a>
-            <a href="https://github.com/FoowsIsBack/Student_Attendance_System" target='_blank'>
+            <a href="https://github.com/FoowsIsBack/Phantom_L7" target='_blank'>
               <div className={styles.calcu}>
-                <img src={sas} alt="calculator"/>
+                <img src={phantom} alt="calculator"/>
                 <div className={styles.description}>
                   <p>Python</p>
-                  <p>SQLite</p>
+                  <p>JavaScript</p> 
                 </div>
                 <div className={styles.description1}>
-                  <h4>Under Development</h4>
-                  <p>Student Attendance System Dashboard is designed to help users manage and monitor student attendance records efficiently. It provides an organized interface for adding, updating, deleting, and viewing attendance information.</p>
+                  <p>Phantom is a Python based command line application featuring multiple HTTP and HTTPS request methods, proxy support, multithreading, and an intuitive command line interface (CLI). It is designed to generate high volumes of HTTP/HTTPS traffic for performance evaluation, load testing, and research in authorized environments.</p>
                 </div>
               </div>
             </a>
@@ -203,7 +200,7 @@ function Portfolio(){
                 </div>
                 <div className={styles.description1}>
                   <h4>Under Development</h4>
-                  <p>Smart Entrance Monitoring is an RFID-based entrance monitoring system that automatically records users' time-in and time-out through ID card scanning. All attendance logs are displayed in a centralized admin panel, providing accurate, secure, and efficient monitoring of entry and exit records.</p>
+                  <p>Smart Entrance Monitoring is an RFID based entrance monitoring system that automatically records users time in and time out through ID card scanning. All attendance logs are displayed in a centralized admin panel, providing accurate, secure, and efficient monitoring of entry and exit records.</p>
                 </div>
               </div>
             </a>

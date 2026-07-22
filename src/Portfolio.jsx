@@ -58,7 +58,7 @@ function Portfolio(){
           </div>
           <div className={styles.name}>
             <h1>Dave Bangcoyo</h1>
-            <h3>• Ormoc City, Leyte</h3>
+            <address>• Ormoc City, Leyte</address>
             <a href="https://www.w3profile.com/davepy" target="_blank">
               <img src="https://img.shields.io/badge/W3Schools-04AA6D?logo=w3schools&logoColor=fff" alt="W3Schools"/>
             </a>

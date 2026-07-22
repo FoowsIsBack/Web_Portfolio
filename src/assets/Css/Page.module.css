@@ -110,10 +110,11 @@ img[alt="message"]{
     color: white;
 }
 
-.name > h3{
+.name > address{
     line-height: 1px;
     color: rgb(158, 154, 154);
     font-size: 18px;
+    margin-bottom: 25px;
 }
 
 a[href="https://www.w3profile.com/davepy"], a[href="https://stackoverflow.com/users/27532465/foowsisback"]{

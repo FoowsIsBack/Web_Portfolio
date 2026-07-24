@@ -219,16 +219,6 @@ audio::-webkit-media-controls-play-button{
     opacity: 0.9;
 }
 
-.menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 12%;
-    margin-left: 18%;
-    width: 1400px;
-    border-bottom: 1px solid grey;
-}
-
 .menu > h1{
     color: white;
 }

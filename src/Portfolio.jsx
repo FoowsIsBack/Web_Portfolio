@@ -75,7 +75,7 @@ function Portfolio(){
         </div>
         <div className={styles.info}>
           <div className={styles.redme}>
-            <h4>FoowsIsBack<span className={styles.md}>/</span>README.<span className={styles.md}>md</span></h4>
+            <h4>AboutMe<span className={styles.md}>/</span>README.<span className={styles.md}>md</span></h4>
             <div className={styles.music}>
               <audio controls autoPlay loop>
                 <source src={music} type="audio/mpeg"/>
@@ -87,12 +87,12 @@ function Portfolio(){
             <p>I am passionate about exploring the latest technologies and solving complex problems. With a basic foundation in computer science, programming, and information technology, I am continuously learning and improving my skills in web development and software development.</p>
           </div>
             <div className={styles.github}>
-                <h3>GitHub Contributions</h3>
-                <a href="https://github.com/FoowsIsBack" target='_blank'>
+                <h3>Contribution Graph</h3>
+                {/* <a href="https://github.com/FoowsIsBack" target='_blank'>*/}
                   <div className={styles.github_graph}>
                     <Contributions />
                   </div>
-                </a>
+                {/* </a> */}
             </div>
         </div>
       </div>

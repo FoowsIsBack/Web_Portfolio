@@ -29,15 +29,8 @@ a{
     color: #2bcc0f;
 }
 
-ul{
-    display: flex;
-    gap: 30px;
-    list-style: none;
-    border-left: 2px solid grey;
-}
-
 .container{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.709);
     position: sticky;
     top: 0;
     z-index: 1;
@@ -60,7 +53,7 @@ ul{
 
 img[alt="profile_pic"]{
     border-radius: 50%;
-    border: 1px solid white;
+    border: 1px solid rgba(128, 128, 128, 0.709);
     width: 310px;
     height: auto;
 }
@@ -110,11 +103,21 @@ img[alt="message"]{
     color: white;
 }
 
-.name > address{
-    line-height: 1px;
+.hometown{
+  margin-top: -5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.hometown > img{
+    width: 20px;
+    height: 20px;
+}
+
+.hometown > address{
     color: rgb(158, 154, 154);
-    font-size: 18px;
-    margin-bottom: 25px;
 }
 
 a[href="https://www.w3profile.com/davepy"], a[href="https://stackoverflow.com/users/27532465/foowsisback"]{
@@ -126,7 +129,7 @@ a[href="https://www.w3profile.com/davepy"]:hover, a[href="https://stackoverflow.
 }
 
 .info{
-    border: 1px solid grey;
+    border: 1px solid rgba(128, 128, 128, 0.709);
     border-radius: 5px;
     padding: 10px;
     height: auto;
@@ -245,7 +248,7 @@ audio::-webkit-media-controls-play-button{
 .frontend, .backend, .database{
     width: 350px;
     height: auto;
-    border: 1px solid gray;
+    border: 1px solid rgba(128, 128, 128, 0.709);
     border-radius: 5px;
 }
 
@@ -264,7 +267,7 @@ audio::-webkit-media-controls-play-button{
     margin-bottom: 20px;
     width: 45px;
     border-radius: 5px;
-    border: 1px solid grey;
+    border: 1px solid rgba(128, 128, 128, 0.709);
     background-color: #01070D;
     padding: 15px;
 }
@@ -296,7 +299,7 @@ audio::-webkit-media-controls-play-button{
     padding: 30px;
     width: 550px;
     height: 550px;
-    border: 1px solid gray;
+    border: 1px solid rgba(128, 128, 128, 0.709);
     border-radius: 5px;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -358,7 +361,7 @@ audio::-webkit-media-controls-play-button{
 
 .ending{
     margin-top: 100px;
-    border-top: 1px solid grey;
+    border-top: 1px solid rgba(128, 128, 128, 0.709);
     padding: 38px;
 }
 

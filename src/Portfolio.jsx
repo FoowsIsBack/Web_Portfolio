@@ -28,6 +28,7 @@ import flutter from './assets/tech_icons/Frameworks/flutter.png'
 import vscode from './assets/tech_icons/Developer_Tools/vscode.png'
 import java from './assets/tech_icons/Backend/java.png'
 import react1 from './assets/tech_icons/Frameworks/react.png'
+import location from './assets/image/location.png'
 
 function Portfolio(){
   return(
@@ -61,7 +62,10 @@ function Portfolio(){
           </div>
           <div className={styles.name}>
             <h1>Dave Bangcoyo</h1>
-            <address>• Ormoc City, Leyte</address>
+            <div className={styles.hometown}>
+              <img src={location} alt="Location icon" />
+              <address>Ormoc City, Leyte</address>
+            </div>
             <a href="https://www.w3profile.com/davepy" target="_blank">
               <img src="https://img.shields.io/badge/W3Schools-04AA6D?logo=w3schools&logoColor=fff" alt="W3Schools"/>
             </a>

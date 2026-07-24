@@ -79,7 +79,7 @@ function Portfolio(){
         </div>
         <div className={styles.info}>
           <div className={styles.redme}>
-            <h4>AboutMe<span className={styles.md}>/</span>README.<span className={styles.md}>md</span></h4>
+            <h4>Aboutme<span className={styles.md}>/</span>README.<span className={styles.md}>md</span></h4>
             <div className={styles.music}>
               <audio controls autoPlay loop>
                 <source src={music} type="audio/mpeg"/>

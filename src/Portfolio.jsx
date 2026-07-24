@@ -25,6 +25,9 @@ import kirotask from './assets/Projects_image/kirotask.png'
 import sem from './assets/Projects_image/sem.png'
 import phantom from './assets/Projects_image/phantom.png'
 import flutter from './assets/tech_icons/Frameworks/flutter.png'
+import vscode from './assets/tech_icons/Developer_Tools/vscode.png'
+import java from './assets/tech_icons/Backend/java.png'
+import react1 from './assets/tech_icons/Frameworks/react.png'
 
 function Portfolio(){
   return(
@@ -109,6 +112,7 @@ function Portfolio(){
               <img src={html} alt="html"/>
               <img src={css} alt="css"/>
               <img src={js} alt="js"/>
+              <img src={react1} alt="react"/>
               <img src={vue} alt="vue"/>
               <img src={flutter} alt="flutter"/>
             </div>
@@ -119,6 +123,7 @@ function Portfolio(){
             </div>
               <div className={styles.tech_stack}>
                 <img src={python} alt="python"/>
+                <img src={java} alt="java"/>
                 <img src={php} alt="php"/>
                 <img src={fastapi} alt="fastapi"/>
                 <img src={mysql} alt="mysql"/>
@@ -127,12 +132,13 @@ function Portfolio(){
           </div>
           <div className={styles.database}>
             <div className={styles.title}>
-              <h3>DEVELOPMENT TOOLS</h3>
+              <h3>TOOLS</h3>
             </div>
             <div className={styles.tech_stack}>
               <img src={git} alt="git"/>
               <img src={github} alt="github"/>
               <img src={postman} alt="postman"/>
+              <img src={vscode} alt="vscode"/>
             </div>
           </div>
         </div>

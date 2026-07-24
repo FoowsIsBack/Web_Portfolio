@@ -29,6 +29,8 @@ import vscode from './assets/tech_icons/Developer_Tools/vscode.png'
 import java from './assets/tech_icons/Backend/java.png'
 import react1 from './assets/tech_icons/Frameworks/react.png'
 import location from './assets/image/location.png'
+import laravel from './assets/tech_icons/Backend/laravel.png'
+
 
 function Portfolio(){
   return(
@@ -129,6 +131,7 @@ function Portfolio(){
                 <img src={python} alt="python"/>
                 <img src={java} alt="java"/>
                 <img src={php} alt="php"/>
+                <img src={laravel} alt="laravel"/>
                 <img src={fastapi} alt="fastapi"/>
                 <img src={mysql} alt="mysql"/>
                 <img src={postgresql} alt="postgresql"/>

@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.709);
     position: sticky;
     top: 0;
     z-index: 1;
@@ -40,18 +40,11 @@ body{
     color: #2bcc0f;
 }
 
-ul{
-    display: flex;
-    gap: 30px;
-    list-style: none;
-    border-left: 2px solid grey;
-}
-
 .menu{
     margin-top: 3%;
     margin-left: 12%;
     width: 1400px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.709);
 }
 
 .menu > h1{

@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.709);
     position: sticky;
     top: 0;
     z-index: 1;
@@ -40,21 +40,87 @@ body{
     color: #2bcc0f;
 }
 
-ul{
-    display: flex;
-    gap: 30px;
-    list-style: none;
-    border-left: 2px solid grey;
-}
-
 .menu{
     margin-top: 3%;
     margin-left: 12%;
     width: 1400px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.709);
 }
 
 .menu > h1{
     text-align: center;
     color: white;
+}
+
+.example1{
+    margin-left: 12%;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 30px;
+    width: 80%;
+}
+
+.page, .page1{
+    display: flex;
+    gap: 10%;
+    font-style: normal;
+}
+
+.page1{
+    margin-top: 50px;
+}
+
+.description > p{
+    text-align: center;
+    color: #7F49DA;
+    border: 1px solid #7F49DA;
+    background-color: #0f0322;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.description{
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+.description1 > p{
+    color: rgb(195, 192, 192);
+    font-weight: normal;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.description1 > h4{
+    color: red;
+    margin-bottom: 0;
+}
+
+.parking, .calcu, .kirotask, .entrance{
+    margin-top: 30px;
+    padding: 30px;
+    width: 550px;
+    height: 550px;
+    border: 1px solid rgba(128, 128, 128, 0.709);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.parking:hover, .calcu:hover, .kirotask:hover, .entrance:hover{
+    transform: scale(1.02);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+    border: 1px solid white;
+}
+
+.parking img, .calcu img, .kirotask img, .entrance img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
 }

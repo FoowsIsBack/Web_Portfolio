@@ -7,7 +7,7 @@ body{
 }
 
 .container{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.709);
     position: sticky;
     top: 0;
     z-index: 1;
@@ -47,7 +47,7 @@ ul{
     margin-top: 3%;
     margin-left: 12%;
     width: 1400px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.709); 
 }
 
 .menu > h1{
@@ -69,7 +69,7 @@ ul{
     margin-bottom: 20px;
     width: 45px;
     border-radius: 5px;
-    border: 1px solid grey;
+    border: 1px solid rgba(128, 128, 128, 0.709);
     background-color: #01070D;
     padding: 15px;
 }
@@ -81,12 +81,12 @@ ul{
 .frontend, .backend, .database{
     width: 350px;
     height: auto;
-    border: 1px solid gray;
+    border: 1px solid rgba(128, 128, 128, 0.709);
     border-radius: 5px;
 }
 
 .title{
-    border-bottom: 1px solid grey;
+    border: 1px solid rgba(128, 128, 128, 0.709);
     margin-bottom: 30px;
 }
 

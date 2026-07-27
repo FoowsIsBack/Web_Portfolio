@@ -47,7 +47,6 @@ function Portfolio(){
               <li><a href="/skills">SKILLS</a></li>
               <li><a href="/projects">PROJECTS</a></li>
               <li><a href="/certificate">CERTIFICATES</a></li>
-              <li><a href="/experience">EXPERIENCE</a></li>
               <li><a href="/contact">CONTACT</a></li>
             </ul>
           </div>
@@ -100,6 +99,27 @@ function Portfolio(){
                   </div>
                 {/* </a> */}
             </div>
+        </div>
+      </div>
+      <div className={styles.education}>
+        <div className={styles.menu}>
+          <h1>EDUCATION </h1>
+        </div>
+        <div className={styles.school}>
+          <div className={styles.ama}>
+            <div className={styles.infocshool}>
+              <h3>ACLC College of Ormoc</h3>
+              <h4>TVL - Programming</h4>
+              <p>SY: 2020 - 2022</p>
+            </div>
+          </div>
+          <div className={styles.ama}>
+            <div className={styles.infoschool1}>
+              <h3>Eastern Visayas State University - Ormoc City Campus</h3>
+              <h4>BS Information Technology (BSIT)</h4>
+              <p>SY: 2022 - </p>
+            </div>
+          </div>
         </div>
       </div>
       <div className={styles.techstack}>

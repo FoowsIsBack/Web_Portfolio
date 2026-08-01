@@ -25,7 +25,6 @@ function Certificate(){
                         <li><a href="/skills">SKILLS</a></li>
                         <li><a href="/projects">PROJECTS</a></li>
                         <li><a href="/certificate">CERTIFICATES</a></li>
-                        <li><a href="/experience">EXPERIENCE</a></li>
                         <li><a href="/contact">CONTACT</a></li>
                         </ul>
                     </div>

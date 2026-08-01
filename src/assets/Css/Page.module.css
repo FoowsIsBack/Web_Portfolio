@@ -370,3 +370,60 @@ audio::-webkit-media-controls-play-button{
     text-align: center;
     color: white;
 }
+
+.school{
+    margin-left: 15%;
+    border-left: 2px solid #3b3b3b;
+    padding-left: 30px;
+}
+
+.ama{
+    position: relative;
+    margin-bottom: 50px;
+    transition: all 0.3 ease;
+}
+
+
+.ama::before{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: grey;
+    border: 1px solid grey;
+    left: -39px;
+    top: 8px;
+    transition: all 0.3s ease;
+}
+
+.ama:hover::before{
+    background: #2bcc0f;
+    border-color: #2bcc0f;
+}
+
+.ama:hover h3{
+    color: #2bcc0f;
+    transition: color 0.3s ease;
+}
+
+.infocshool > h3, .infoschool1 > h3{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.infocshool > h4, .infoschool1 > h4{
+    margin-top: -15px;
+    color: rgb(121, 117, 117);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.infocshool > h3, .infocshool > h4, .infocshool > p{
+    margin-left: 20px;
+}
+
+.infoschool1 > h3, .infoschool1 > h4, .infoschool1 > p {
+    margin-left: 20px;
+}

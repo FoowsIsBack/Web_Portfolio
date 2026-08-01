@@ -102,8 +102,12 @@ function Portfolio(){
         </div>
       </div>
       <div className={styles.education}>
-        <div className={styles.menu}>
-          <h1>EDUCATION </h1>
+        <div className={styles.skol_info}>
+          <h1>EDUCATION</h1>
+          <h2>|</h2>
+          <div className={styles.experience}>
+            <h1>EXPERIENCE</h1>
+          </div>
         </div>
         <div className={styles.school}>
           <div className={styles.ama}>

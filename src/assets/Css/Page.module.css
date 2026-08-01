@@ -371,6 +371,33 @@ audio::-webkit-media-controls-play-button{
     color: white;
 }
 
+.skol_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12%;
+    margin-left: 12%;
+    width: 1400px;
+    border-bottom: 1px solid grey;
+}
+
+.skol_info > h1{
+    margin-left: 200px;
+    color: white;
+}
+
+.skol_info > h2{
+    color: red;
+}
+
+.experience{
+    margin-right: 200px;
+}
+
+.experience > h1{
+    color: white;
+}
+
 .school{
     margin-left: 15%;
     border-left: 2px solid #3b3b3b;
@@ -409,7 +436,7 @@ audio::-webkit-media-controls-play-button{
 
 .infocshool > h3, .infoschool1 > h3{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
 }
 

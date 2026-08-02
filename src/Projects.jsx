@@ -98,6 +98,11 @@ function Projects(){
                     </a>
                 </div>
             </div>
+            <div className={styles.ending}>
+                <footer>
+                    <p>© 2026 Kiryll Dave U. Bangcoyo. All rights reserved.</p>
+                </footer>
+            </div>
         </div>
         </>
     )

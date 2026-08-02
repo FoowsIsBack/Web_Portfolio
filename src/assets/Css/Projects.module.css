@@ -6,10 +6,6 @@ body{
     font-weight: 750;
 }
 
-.start{
-    margin-bottom: 3%;
-}
-
 .container{
     border-bottom: 1px solid rgba(128, 128, 128, 0.709);
     position: sticky;
@@ -123,4 +119,16 @@ body{
     border-radius: 5px;
     width: 100%;
     height: auto;
+}
+
+.ending{
+    margin-top: 250px;
+    border-top: 1px solid grey;
+    padding: 38px;
+}
+
+.ending p{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
 }

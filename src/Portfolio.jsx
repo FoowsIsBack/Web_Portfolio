@@ -121,7 +121,7 @@ function Portfolio(){
             <div className={styles.infoschool1}>
               <h3>Eastern Visayas State University - Ormoc City Campus</h3>
               <h4>BS Information Technology (BSIT)</h4>
-              <p>SY: 2023 - </p>
+              <p>SY: 2023 - Present</p>
             </div>
           </div>
         </div>

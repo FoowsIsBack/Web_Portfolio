@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useRef } from "react";
 import styles from './assets/Css/Certificate.module.css'
 import hacking from './assets/Certificate/1.jpg'
 import webdev from './assets/Certificate/web_dev.jpg'
@@ -10,6 +11,34 @@ function Certificate(){
         document.title = "Dave | Certificates"
     })
 
+    const dialogRef = useRef(null);
+    const dialogRef1 = useRef(null);
+    const dialogRef2 = useRef(null);
+
+    const openDialog = () => {
+        document.body.style.overflow = "hidden";
+        dialogRef.current.showModal();
+    };
+    const openDialog1 = () => {
+        document.body.style.overflow = "hidden";
+        dialogRef1.current.showModal();
+    };
+    const openDialog2 = () => {
+        document.body.style.overflow = "hidden";
+        dialogRef2.current.showModal();
+    };
+    const closeDialog = () => {
+        dialogRef.current.close();
+        document.body.style.overflow = "";
+    };
+    const closeDialog1 = () => {
+        dialogRef1.current.close();
+        document.body.style.overflow = "";
+    };
+    const closeDialog2 = () => {
+        dialogRef2.current.close();
+        document.body.style.overflow = "";
+    };
 
     return(
         <>
@@ -36,23 +65,53 @@ function Certificate(){
                 </div>
                 <div className={styles.cert}>
                     <div className={styles.menu2}>
-                        <div className={styles.hacking}>
+                        <div className={styles.hacking} onClick={openDialog}>
                             <h3>Penetration Testing and Ethical Hacking</h3>
                             <p>(June 3, 2018)</p>
                             <img src={hacking} alt="hacking"/>
                         </div>
-                        <div className={styles.webdev}>
+                        <div className={styles.webdev} onClick={openDialog1}>
                             <h3>Web Development</h3>
                             <p>(July 13, 2026)</p>
                             <img src={webdev} alt="webdev"/>
                         </div>
-                        <div className={styles.linux}>
+                        <div className={styles.linux} onClick={openDialog2}>
                             <h3>Introduction to Kali Linux Basics</h3>
                             <p>(July 16, 2026)</p>
-                        <img src={linux} alt="linux"/>
+                            <img src={linux} alt="linux"/>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className={styles.popup}>
+                <dialog ref={dialogRef}>
+                    <h3>Penetration Testing and Ethical Hacking</h3>
+                    <p>(June 3, 2018)</p>
+                    <img src={hacking} alt="hacking"/>
+                    <div className={styles.closer}>
+                        <button onClick={closeDialog}>Close</button>
+                    </div>                        
+                </dialog>
+            </div>
+            <div className={styles.popup}>
+                <dialog ref={dialogRef1}>
+                    <h3>Web Development</h3>
+                    <p>(July 13, 2016)</p>
+                    <img src={webdev} alt="webdev"/>
+                    <div className={styles.closer}>
+                        <button onClick={closeDialog1}>Close</button>
+                    </div>                        
+                </dialog>
+            </div>
+            <div className={styles.popup}>
+                <dialog ref={dialogRef2}>
+                    <h3>Introduction to Kali Linux Basics</h3>
+                    <p>(July 16, 2026)</p>
+                    <img src={linux} alt="linux"/>
+                    <div className={styles.closer}>
+                        <button className={styles} onClick={closeDialog2}>Close</button>
+                    </div>                        
+                </dialog>
             </div>
             <div className={styles.ending}>
                 <footer>

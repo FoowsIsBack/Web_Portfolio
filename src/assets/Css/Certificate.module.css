@@ -62,6 +62,7 @@ body{
     border-radius: 5px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .hacking:hover, .webdev:hover, .linux:hover{
@@ -101,4 +102,54 @@ img[alt="hacking"]{
 .ending p{
     margin-top: 5px;
     text-align: center;
+}
+
+.popup{
+    text-align: center;
+}
+
+dialog{
+    width: 750px;
+    max-width: 90%;
+    border: none;
+    border-radius: 15px;
+    padding: 25px;
+    background: rgb(22, 27, 34);
+    color: white;
+    overflow: hidden;
+    outline: none;
+
+}
+
+dialog::backdrop{  
+    background: rgba(0,0,0,.75);
+    cursor: default;
+}
+
+dialog > img{
+    width: 100%;
+    height: auto;
+}
+
+.closer{
+    display: flex;
+}
+
+dialog button{
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: auto;
+    outline: none;
+}
+
+dialog button:hover{
+    background-color: rgb(194, 3, 3);
 }

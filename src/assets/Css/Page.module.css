@@ -104,11 +104,11 @@ img[alt="message"]{
 }
 
 .hometown{
-  margin-top: -5px;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  margin-bottom: 15px;
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
 }
 
 .hometown > img{
@@ -120,11 +120,11 @@ img[alt="message"]{
     color: rgb(158, 154, 154);
 }
 
-a[href="https://www.w3profile.com/davepy"], a[href="https://stackoverflow.com/users/27532465/foowsisback"]{
+a[href="https://www.w3profile.com/davepy"], a[href="https://stackoverflow.com/users/27532465/foowsisback"],a[href="https://github.com/FoowsIsBack"]{
     margin-right: 10px;
 }
 
-a[href="https://www.w3profile.com/davepy"]:hover, a[href="https://stackoverflow.com/users/27532465/foowsisback"]:hover, a[href="https://tryhackme.com/p/Foows"]:hover{
+a[href="https://www.w3profile.com/davepy"]:hover, a[href="https://stackoverflow.com/users/27532465/foowsisback"]:hover, a[href="https://tryhackme.com/p/Foows"]:hover, a[href="https://github.com/FoowsIsBack"]:hover{
     filter: brightness(0.8);
 }
 
@@ -200,6 +200,23 @@ audio::-webkit-media-controls-play-button{
 
 .spacer{
     color: red;
+}
+
+.resume{
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: rgb(35, 134, 54);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.resume:hover{
+    background-color: rgb(27, 108, 44);
 }
 
 .github{

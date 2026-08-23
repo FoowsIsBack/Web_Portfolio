@@ -15,7 +15,6 @@ import python from './assets/tech_icons/Backend/python.png'
 import fastapi from './assets/tech_icons/Frameworks/fastapi.png'
 import mysql from './assets/tech_icons/Backend/mysql.png'
 import postgresql from './assets/tech_icons/Backend/postgresql.png'
-import vue from './assets/tech_icons/Frontend/vue.png'
 import git from './assets/tech_icons/Developer_Tools/git.png'
 import github from './assets/tech_icons/Developer_Tools/github.png'
 import postman from './assets/tech_icons/Developer_Tools/postman.png'
@@ -24,7 +23,6 @@ import calculator from './assets/Projects_image/calculator.png'
 import kirotask from './assets/Projects_image/kirotask.png'
 import sem from './assets/Projects_image/sem.png'
 import phantom from './assets/Projects_image/phantom.png'
-import flutter from './assets/tech_icons/Frameworks/flutter.png'
 import vscode from './assets/tech_icons/Developer_Tools/vscode.png'
 import java from './assets/tech_icons/Backend/java.png'
 import react1 from './assets/tech_icons/Frameworks/react.png'
@@ -146,8 +144,6 @@ function Portfolio(){
               <img src={css} alt="css"/>
               <img src={js} alt="js"/>
               <img src={react1} alt="react"/>
-              <img src={vue} alt="vue"/>
-              <img src={flutter} alt="flutter"/>
             </div>
           </div>
           <div className={styles.backend}>

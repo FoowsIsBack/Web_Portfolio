@@ -28,6 +28,7 @@ import java from './assets/tech_icons/Backend/java.png'
 import react1 from './assets/tech_icons/Frameworks/react.png'
 import location from './assets/image/location.png'
 import laravel from './assets/tech_icons/Backend/laravel.png'
+import typescript from './assets/tech_icons/Frontend/ts.png'
 
 
 function Portfolio(){
@@ -144,6 +145,7 @@ function Portfolio(){
               <img src={css} alt="css"/>
               <img src={js} alt="js"/>
               <img src={react1} alt="react"/>
+              <img src={typescript} alt="typescript"/>
             </div>
           </div>
           <div className={styles.backend}>

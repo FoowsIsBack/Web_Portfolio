@@ -15,6 +15,7 @@ import vscode from './assets/tech_icons/Developer_Tools/vscode.png'
 import java from './assets/tech_icons/Backend/java.png'
 import react1 from './assets/tech_icons/Frameworks/react.png'
 import laravel from './assets/tech_icons/Backend/laravel.png'
+import ts from './assets/tech_icons/Frontend/ts.png'
 
 function Skills(){
 
@@ -55,6 +56,7 @@ function Skills(){
                         <img src={css} alt="css"/>
                         <img src={js} alt="js"/>
                         <img src={react1} alt="react"/>
+                        <img src={ts} alt="typescript"/>
                         </div>
                     </div>
                     <div className={styles.backend}>

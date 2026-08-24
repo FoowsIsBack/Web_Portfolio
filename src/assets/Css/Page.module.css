@@ -377,7 +377,7 @@ audio::-webkit-media-controls-play-button{
 }
 
 .ending{
-    margin-top: 100px;
+    margin-top: 250px;
     border-top: 1px solid rgba(128, 128, 128, 0.709);
     padding: 38px;
 }

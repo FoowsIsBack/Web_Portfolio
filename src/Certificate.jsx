@@ -4,6 +4,7 @@ import styles from './assets/Css/Certificate.module.css'
 import hacking from './assets/Certificate/1.jpg'
 import webdev from './assets/Certificate/web_dev.jpg'
 import linux from './assets/Certificate/basic_linux.jpg'
+import web_responsive from './assets/Certificate/responsive_webDesign.png'
 
 function Certificate(){
 
@@ -14,6 +15,7 @@ function Certificate(){
     const dialogRef = useRef(null);
     const dialogRef1 = useRef(null);
     const dialogRef2 = useRef(null);
+    const dialogRef3 = useRef(null);
 
     const openDialog = () => {
         document.body.style.overflow = "hidden";
@@ -27,6 +29,11 @@ function Certificate(){
         document.body.style.overflow = "hidden";
         dialogRef2.current.showModal();
     };
+    const openDialog3 = () => {
+        document.body.style.overflow = "hidden";
+        dialogRef3.current.showModal();
+    }
+
     const closeDialog = () => {
         dialogRef.current.close();
         document.body.style.overflow = "";
@@ -37,6 +44,10 @@ function Certificate(){
     };
     const closeDialog2 = () => {
         dialogRef2.current.close();
+        document.body.style.overflow = "";
+    };
+    const closeDialog3 = () => {
+        dialogRef3.current.close();
         document.body.style.overflow = "";
     };
 
@@ -81,6 +92,13 @@ function Certificate(){
                             <img src={linux} alt="linux"/>
                         </div>
                     </div>
+                    <div className={styles.menu3} onClick={openDialog3}>
+                        <div className={styles.web_responsive}>
+                            <h3>Legacy Responsive Web Design V8</h3>
+                            <p>(August 23, 2026)</p>
+                            <img src={web_responsive} alt="Web_responsive"/>
+                        </div>                        
+                    </div>
                 </div>
             </div>
             <div className={styles.popup}>
@@ -110,6 +128,16 @@ function Certificate(){
                     <img src={linux} alt="linux"/>
                     <div className={styles.closer}>
                         <button className={styles} onClick={closeDialog2}>Close</button>
+                    </div>                        
+                </dialog>
+            </div>
+            <div className={styles.popup}>
+                <dialog ref={dialogRef3}>
+                    <h3>Legacy Responsive Web Design V8</h3>
+                    <p>(August 23, 2026)</p>
+                    <img src={web_responsive} alt="Web_responsive"/>
+                    <div className={styles.closer}>
+                        <button className={styles} onClick={closeDialog3}>Close</button>
                     </div>                        
                 </dialog>
             </div>

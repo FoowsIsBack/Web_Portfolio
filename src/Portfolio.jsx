@@ -61,7 +61,7 @@ function Portfolio(){
             </div>
           </div>
           <div className={styles.name}>
-            <h1>Dave Bangcoyo</h1>
+            <h2>Dave Bangcoyo</h2>
             <div className={styles.hometown}>
               <img src={location} alt="Location icon" />
               <address>Ormoc City, Leyte</address>

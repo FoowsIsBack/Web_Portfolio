@@ -322,6 +322,10 @@ audio::-webkit-media-controls-play-button{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.parking:active, .calcu:active, .kirotask:active, .entrance:active{
+    opacity: 0.8;
+}
+
 .parking:hover, .calcu:hover, .kirotask:hover, .entrance:hover{
     transform: scale(1.02);
     box-shadow: 0 12px 25px rgba(0,0,0,0.25);

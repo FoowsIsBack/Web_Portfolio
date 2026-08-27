@@ -99,7 +99,7 @@ img[alt="message"]{
     visibility: visible;
 }
 
-.name > h1{
+.name > h2{
     color: white;
 }
 

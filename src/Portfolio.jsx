@@ -187,6 +187,7 @@ function Portfolio(){
             <a href="https://github.com/FoowsIsBack/EVSU_Vehicle_GatePass_System" target='_blank'>
               <div className={styles.parking}>
                 <img src={parking} alt="parking"/>
+                <h2>EVSU Parking Sticker Management & Verification System</h2>
                 <div className={styles.description}>
                   <p>FastAPI</p>
                   <p>HTML</p>
@@ -203,6 +204,7 @@ function Portfolio(){
             <a href="https://github.com/FoowsIsBack/Phantom_L7" target='_blank'>
               <div className={styles.calcu}>
                 <img src={phantom} alt="calculator"/>
+                <h2>Phantom DDoS</h2>
                 <div className={styles.description}>
                   <p>Python</p>
                   <p>JavaScript</p> 
@@ -217,6 +219,7 @@ function Portfolio(){
             <a href="https://kirotask.vercel.app/" target='_blank'>
               <div className={styles.kirotask}>
                 <img src={kirotask} alt="kirotask"/>
+                <h2>KiroTask</h2>
                 <div className={styles.description}>
                   <p>Dart</p>
                   <p>Flutter</p>
@@ -229,6 +232,7 @@ function Portfolio(){
             <a href="https://github.com/FoowsIsBack/Smart_Entrance_Monitoring" target='_blank'>
               <div className={styles.entrance}>
                 <img src={sem} alt="entrance"/>
+                <h2>Smart Entrance Monitoring</h2>
                 <div className={styles.description}>
                   <p>HTML</p>
                   <p>CSS</p>

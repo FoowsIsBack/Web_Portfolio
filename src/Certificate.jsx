@@ -11,7 +11,7 @@ import python from './assets/Certificate/python.png'
 function Certificate(){
 
     useEffect(() => {
-        document.title = "Dave | Certificates"
+        document.title = "Kiryll Dave Bangcoyo | Certificates"
     })
 
     const dialogRef = useRef(null);

@@ -144,7 +144,7 @@ function Certificate(){
             <div className={styles.popup}>
                 <dialog ref={dialogRef1}>
                     <h3>Web Development</h3>
-                    <p>(July 13, 2016)</p>
+                    <p>(July 13, 2026)</p>
                     <img src={webdev} alt="webdev"/>
                     <div className={styles.closer}>
                         <button onClick={closeDialog1}>Close</button>

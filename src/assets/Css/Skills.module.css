@@ -40,7 +40,6 @@ ul{
     display: flex;
     gap: 30px;
     list-style: none;
-    border-left: 2px solid grey;
 }
 
 .menu{
@@ -209,9 +208,10 @@ ul{
 @media(max-width: 600px){
 
     .nav{
-        padding: 0 15px 15px;
+        padding: 0 15px;
         flex-direction: column;
         gap: 10px;
+        padding-bottom: 15px;
     }
 
     .nav h1{
@@ -220,13 +220,20 @@ ul{
 
     .nav2{
         width: 100%;
+        overflow-x: auto;
     }
 
     .nav2 ul{
+        display: flex;
         justify-content: center;
         flex-wrap: wrap;
         gap: 8px;
-        padding-left: 10px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav2 ul li{
+        list-style: none;
     }
 
     .nav2 a{
@@ -234,12 +241,12 @@ ul{
     }
 
     .menu{
-        width: 90%;
-        margin: 30px auto 0;
+        width: 85%;
+        margin: 40px auto 0;
     }
 
     .menu > h1{
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .example{
@@ -291,7 +298,8 @@ ul{
 @media(max-width: 380px){
 
     .nav{
-        padding: 0 10px 12px;
+        padding: 0 10px;
+        padding-bottom: 12px;
     }
 
     .nav h1{

@@ -33,35 +33,35 @@ function Skills(){
                     </a>
                     <div className={styles.nav2}>
                         <ul>
-                        <li><a href="/">STATS</a></li>
-                        <li><a href="/skills">SKILLS</a></li>
-                        <li><a href="/projects">PROJECTS</a></li>
-                        <li><a href="/certificate">CERTIFICATES</a></li>
-                        <li><a href="/contact">CONTACT</a></li>
+                            <li><a href="/">STATS</a></li>
+                            <li><a href="/skills">SKILLS</a></li>
+                            <li><a href="/projects">PROJECTS</a></li>
+                            <li><a href="/certificate">CERTIFICATES</a></li>
+                            <li><a href="/contact">CONTACT</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div className={styles.techstack}>
                 <div className={styles.menu}>
-                <h1>TECH STACK</h1>
+                    <h1>TECH STACK</h1>
                 </div>
                 <div className={styles.example}>
                     <div className={styles.frontend}>
                         <div className={styles.title}>
-                        <h3>FRONTEND</h3>
+                            <h3>FRONTEND</h3>
                         </div>
-                        <div className={styles.tech_stack}>
-                        <img src={html} alt="html"/>
-                        <img src={css} alt="css"/>
-                        <img src={js} alt="js"/>
-                        <img src={react1} alt="react"/>
-                        <img src={ts} alt="typescript"/>
+                        <div className={styles.tech_stack}>        margin-top: 0;
+                            <img src={html} alt="html"/>
+                            <img src={css} alt="css"/>
+                            <img src={js} alt="js"/>
+                            <img src={react1} alt="react"/>
+                            <img src={ts} alt="typescript"/>
                         </div>
                     </div>
                     <div className={styles.backend}>
                         <div className={styles.title}>
-                        <h3>BACKEND</h3>
+                            <h3>BACKEND</h3>
                         </div>
                         <div className={styles.tech_stack}>
                             <img src={python} alt="python"/>
@@ -75,13 +75,13 @@ function Skills(){
                     </div>
                     <div className={styles.database}>
                         <div className={styles.title}>
-                        <h3>TOOLS</h3>
+                            <h3>TOOLS</h3>
                         </div>
                         <div className={styles.tech_stack}>
-                        <img src={git} alt="git"/>
-                        <img src={github} alt="github"/>
-                        <img src={postman} alt="postman"/>
-                        <img src={vscode} alt="vscode"/>
+                            <img src={git} alt="git"/>
+                            <img src={github} alt="github"/>
+                            <img src={postman} alt="postman"/>
+                            <img src={vscode} alt="vscode"/>
                         </div>
                     </div>
                 </div>

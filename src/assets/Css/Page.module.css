@@ -51,6 +51,23 @@ a{
     gap: 15%;
 }
 
+.profile{
+    position: relative;
+    position: sticky;
+    width: max-content;
+    max-width: 100%;
+}
+
+.message{
+    position: absolute;
+    right: -12px;
+    bottom: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
 img[alt="profile_pic"]{
     border-radius: 50%;
     border: 1px solid rgba(128, 128, 128, 0.709);
@@ -59,23 +76,24 @@ img[alt="profile_pic"]{
 }
 
 img[alt="message"]{
-    position: absolute;
-    top: 38%;
-    left: 33%;
-    padding: 5px;
-    border-radius: 50%;
-    border: 1px solid rgba(128, 128, 128, 0.276);
     width: 18px;
     height: 18px;
-    cursor: pointer;
-    background-color: rgb(1, 7, 13);
     padding: 10px;
+    border-radius: 50%;
+    border:1px solid rgba(128,128,128,.276);
+    background-color: rgb(1,7,13);
+    cursor: pointer;
+    box-sizing: content-box;
 }
 
 .message{
     position: absolute;
-    top: 38%;
-    left: 27%;
+    right: -12px;
+    bottom: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
 }
 
 .message > p{
@@ -311,7 +329,7 @@ audio::-webkit-media-controls-play-button{
     border-bottom: 1px solid grey;
 }
 
-.parking, .calcu, .kirotask, .entrance{
+.parking, .calcu, .kirotask, .entrance, .web_calcu{
     margin-top: 30px;
     padding: 30px;
     width: 550px;
@@ -322,17 +340,17 @@ audio::-webkit-media-controls-play-button{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.parking:active, .calcu:active, .kirotask:active, .entrance:active{
+.parking:active, .calcu:active, .kirotask:active, .entrance:active, .web_calcu:active{
     opacity: 0.8;
 }
 
-.parking:hover, .calcu:hover, .kirotask:hover, .entrance:hover{
+.parking:hover, .calcu:hover, .kirotask:hover, .entrance:hover, web_calcu:hover{
     transform: scale(1.02);
     box-shadow: 0 12px 25px rgba(0,0,0,0.25);
     border: 1px solid white;
 }
 
-.parking img, .calcu img, .kirotask img, .entrance img{
+.parking img, .calcu img, .kirotask img, .entrance img, .web_calcu img{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -341,17 +359,17 @@ audio::-webkit-media-controls-play-button{
     height: auto;
 }
 
-.page, .page1{
+.page, .page1, .page2{
     display: flex;
     gap: 10%;
     font-style: normal;
 }
 
-.page > a, .page1 > a{
+.page > a, .page1 > a, .page2 > a{
     display: flex;
 }
 
-.page1{
+.page1, .page2{
     margin-top: 50px;
 }
 
@@ -477,4 +495,879 @@ audio::-webkit-media-controls-play-button{
 
 .infoschool1 > h3, .infoschool1 > h4, .infoschool1 > p{
     margin-left: 20px;
+}
+
+@media(max-width: 1200px){
+
+    .nav{
+        padding: 0 10px;
+    }
+
+    .nav h1{
+        font-size: 25px;
+    }
+
+    .nav2 ul{
+        gap: 6px;
+    }
+
+    .nav2 a{
+        font-size: 10px;
+    }
+
+    .main{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 8%;
+    }
+
+    img[alt="profile_pic"]{
+        width: 260px;
+    }
+
+    img[alt="message"]{
+        position: static;
+        width: 18px;
+        height: 18px;
+    }
+
+    .profile{
+        position: relative;
+        width: max-content;
+        max-width: 100%;
+        margin: 0 auto;
+        position: sticky;
+    }
+
+    .message{
+        position: absolute;
+        right: -10px;
+        bottom: 25%;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+
+    .redme{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .info{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .skol_info{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skol_info > h1{
+        margin-left: 50px;
+    }
+
+    .experience{
+        margin-right: 50px;
+    }
+
+    .school{
+        margin-left: 10%;
+    }
+
+    .menu{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .example{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 30px;
+    }
+
+    .frontend, .backend, .database{
+        width: 31%;
+    }
+
+    .example img{
+        margin-left: 15px;
+        width: 40px;
+        padding: 12px;
+    }
+
+    .example1{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .page, .page1 .page2{
+        gap: 30px;
+    }
+
+    .parking, .calcu, .kirotask, .entrance, .web_calcu{
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+}
+
+@media(max-width:768px){
+
+    .nav{
+        padding: 0 20px;
+    }
+
+    .nav h1{
+        font-size: 25px;
+    }
+
+    .nav2 ul{
+        gap: 10px;
+    }
+
+    .nav2 a{
+        font-size: 14px;
+    }
+
+    .menu{
+        width: 85%;
+        margin: 40px auto 0;
+        box-sizing: border-box;
+    }
+
+    .main{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 85%;
+        max-width: 100%;
+        margin: 50px auto 0;
+        gap: 40px;
+        box-sizing: border-box;
+    }
+
+    .left{
+        width: 100%;
+        min-width: 0;
+        text-align: center;
+    }
+
+    .profile{
+        position: relative;
+        width: max-content;
+        max-width: 100%;
+        margin: 0 auto;
+        position: sticky;
+    }
+
+    img[alt="profile_pic"]{
+        width: 240px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .name{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .hometown{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .message{
+        position: absolute;
+        right: -10px;
+        bottom: 25%;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+
+    .info{
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .redme{
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        box-sizing: border-box;
+    }
+
+    .redme > h4{
+        min-width: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-size: 13px;
+    }
+
+    .music{
+        flex-shrink: 1;
+        max-width: 45%;
+    }
+
+    audio{
+        width: 180px;
+        max-width: 100%;
+    }
+
+    .info2{
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        box-sizing: border-box;
+    }
+
+    .info2 > h3{
+        font-size: 18px;
+        line-height: 1.5;
+        word-wrap: break-word;
+    }
+
+    .info2 > p{
+        width: 100%;
+        max-width: 100%;
+        font-size: 13px;
+        line-height: 1.6;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        box-sizing: border-box;
+    }
+
+    .resume{
+        max-width: 100%;
+        font-size: 13px;
+    }
+
+    .github{
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        box-sizing: border-box;
+    }
+
+    .github_graph {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        justify-content: flex-start;
+        box-sizing: border-box;
+    }
+
+    .skol_info{
+        width: 85%;
+        max-width: 100%;
+        margin: 80px auto 0;
+        box-sizing: border-box;
+    }
+
+    .skol_info > h1{
+        margin-left: 0;
+        font-size: 26px;
+    }
+
+    .experience{
+        margin-right: 0;
+    }
+
+    .experience > h1{
+        font-size: 26px;
+    }
+
+    .school{
+        width: 80%;
+        max-width: 100%;
+        margin-left: 10%;
+        padding-left: 25px;
+        box-sizing: border-box;
+    }
+
+    .infocshool > h3, .infoschool1 > h3{
+        font-size: 1.1rem;
+    }
+
+    .infocshool > h4, .infoschool1 > h4{
+        font-size: 1rem;
+    }
+
+    .techstack{
+        padding-bottom: 200px;
+    }
+
+    .menu > h1{
+        font-size: 28px;
+    }
+
+    .example{
+        width: 90%;
+        max-width: 100%;
+        margin: 30px auto 0;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+        box-sizing: border-box;
+    }
+
+    .frontend, .backend, .database{
+        width: auto;
+        min-width: 0;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .database{
+        grid-column: 1 / -1;
+    }
+
+    .title{
+        margin-bottom: 20px;
+    }
+
+    .title > h3{
+        font-size: 18px;
+    }
+
+    .example img{
+        margin-left: 10px;
+        margin-bottom: 15px;
+        width: 40px;
+        max-width: 100%;
+        padding: 12px;
+    }
+
+    .projects .menu{
+        margin-top: 80px;
+    }
+
+    .example1{
+        width: 90%;
+        max-width: 100%;
+        margin: 30px auto 0;
+        box-sizing: border-box;
+    }
+
+    .page, .page1, .page2{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .page1, .page2{
+        margin-top: 20px;
+    }
+
+    .parking, .calcu, .kirotask, .entrance, .web_calcu{
+        width: 100%;
+        min-width: 0;
+        min-height: 500px;
+        padding: 20px;
+        margin-top: 20px;
+        box-sizing: border-box;
+    }
+
+    .parking h2, .calcu h2, .kirotask h2, .entrance h2{
+        font-size: 20px;
+    }
+
+    .description{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .description > p{
+        font-size: 13px;
+        padding: 6px;
+    }
+
+    .description1 > p{
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .ending{
+        margin-top: 150px;
+        padding: 30px 20px;
+        box-sizing: border-box;
+    }
+}
+
+@media(max-width: 600px){
+
+    .nav{
+        padding: 0 15px;
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 15px;
+    }
+
+    .nav h1{
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+
+    .nav2{
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .nav2 ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav2 ul li{
+        list-style: none;
+    }
+
+    .nav2 a{
+        font-size: 12px;
+    }
+
+    .menu{
+        width: 90%;
+        margin: 30px auto 0;
+    }
+
+    .menu > h1{
+        font-size: 24px;
+    }
+
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        margin: 40px 0 0;
+        padding: 0 15px;
+        box-sizing: border-box;
+        gap: 30px;
+    }
+
+    .left{
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .profile{
+        position: relative;
+        width: max-content;
+        max-width: 100%;
+        margin: 0 auto;
+        position: sticky;
+    }
+
+    .message{
+        position: absolute;
+        right: -9px;
+        bottom: 25%;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+
+    img[alt="profile_pic"]{
+        width: 200px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .name{
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .hometown{
+        width: 100%;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    .info{
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    .redme{
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .redme > h4{
+        font-size: 13px;
+        min-width: 0;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .music{
+        width: auto;
+        max-width: 45%;
+        flex-shrink: 1;
+    }
+
+    audio{
+        width: 150px;
+        max-width: 100%;
+        height: 35px;
+    }
+
+    .info2{
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        box-sizing: border-box;
+    }
+
+    .info2 > h3{
+        font-size: 18px;
+        line-height: 1.5;
+        word-wrap: break-word;
+    }
+
+    .info2 > p{
+        width: 100%;
+        max-width: 100%;
+        font-size: 13px;
+        line-height: 1.6;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        box-sizing: border-box;
+    }
+
+    .resume{
+        font-size: 13px;
+        width: 80px;
+        padding: 5px;
+        max-width: 100%;
+    }
+
+    .github{
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .github_graph{
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .github_graph > *{
+        max-width: none;
+    }
+
+    .skol_info{
+        width: 90%;
+        margin: 60px auto 0;
+    }
+
+    .skol_info > h1{
+        font-size: 21px;
+    }
+
+    .skol_info > h2{
+        font-size: 18px;
+    }
+
+    .experience > h1{
+        font-size: 21px;
+    }
+
+    .school{
+        width: 85%;
+        margin-left: 8%;
+        padding-left: 20px;
+    }
+
+    .ama{
+        margin-bottom: 35px;
+    }
+
+    .ama::before{
+        width: 12px;
+        height: 12px;
+        left: -27px;
+    }
+
+    .infocshool > h3, .infoschool1 > h3{
+        font-size: 1rem;
+    }
+
+    .infocshool > h4, .infoschool1 > h4{
+        font-size: 0.9rem;
+        margin-top: -10px;
+    }
+
+    .infocshool > p, .infoschool1 > p{
+        font-size: 12px;
+    }
+
+    .infocshool > h3, .infocshool > h4, .infocshool > p, .infoschool1 > h3, .infoschool1 > h4, .infoschool1 > p{
+        margin-left: 10px;
+    }
+
+    .techstack{
+        padding-bottom: 150px;
+    }
+
+    .menu{
+        width: 90%;
+        margin: 60px auto 0;
+    }
+
+    .menu > h1{
+        font-size: 24px;
+    }
+
+    .menu > a{
+        font-size: 14px;
+    }
+
+    .example{
+        width: 90%;
+        margin: 25px auto 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .frontend, .backend, .database{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .database{
+        grid-column: auto;
+    }
+
+    .title{
+        margin-bottom: 20px;
+    }
+
+    .title > h3{
+        font-size: 17px;
+    }
+
+    .example img{
+        margin-left: 10px;
+        margin-bottom: 12px;
+        width: 38px;
+        padding: 10px;
+    }
+
+    .projects .menu{
+        margin-top: 60px;
+    }
+
+    .example1{
+        width: 90%;
+        margin: 25px auto 0;
+    }
+
+    .page, .page1, .page2{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .page1{
+        margin-top: 0;
+    }
+
+    .page2{
+        margin-top: 15px;
+    }
+
+    .parking, .calcu, .kirotask, .entrance, .web_calcu{
+        width: 100%;
+        min-height: auto;
+        padding: 18px;
+        margin-top: 15px;
+        box-sizing: border-box;
+    }
+
+    .parking h2, .calcu h2, .kirotask h2, .entrance h2, .web_calcu h2{
+        font-size: 18px;
+    }
+
+    .parking img, .calcu img, .kirotask img, .entrance img, .web_calcu img{
+        width: 100%;
+        height: auto;
+    }
+
+    .description{
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .description > p{
+        font-size: 11px;
+        padding: 5px;
+    }
+
+    .description1 > p{
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .description1 > h4{
+        font-size: 13px;
+    }
+
+    .ending{
+        margin-top: 100px;
+        padding: 25px 15px;
+    }
+
+    .ending p{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 380px){
+
+    .nav{
+        padding: 0 10px;
+        padding-bottom: 12px;
+    }
+
+    .nav h1{
+        font-size: 25px;
+    }
+
+    .nav2 ul{
+        gap: 6px;
+        padding-left: 5px;
+    }
+
+    .nav2 a{
+        font-size: 10px;
+    }
+
+    .profile{
+        position: relative;
+        width: max-content;
+        max-width: 100%;
+        margin: 0 auto;
+        position: sticky;
+    }
+
+    .message{
+        position: absolute;
+        right: -8px;
+        bottom: 25%;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+
+    .main{
+        width: 100%;
+        padding: 0 10px;
+        margin-top: 30px;
+        box-sizing: border-box;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    img[alt="profile_pic"]{
+        width: 170px;
+        max-width: 100%;
+    }
+
+    .name > h2{
+        font-size: 20px;
+    }
+
+    .hometown{
+        font-size: 12px;
+    }
+
+    .info{
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+    .redme{
+        width: 100%;
+        gap: 5px;
+    }
+
+    .redme > h4{
+        font-size: 11px;
+    }
+
+    .music{
+        max-width: 45%;
+    }
+
+    audio{
+        width: 120px;
+        max-width: 100%;
+        height: 32px;
+    }
+
+    .info2 > h3{
+        font-size: 16px;
+    }
+
+    .info2 > p{
+        font-size: 11px;
+        line-height: 1.5;
+    }
+
+    .resume{
+        font-size: 11px;
+        width: 70px;
+    }
+
+    .github{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .github > h3{
+        font-size: 16px;
+    }
 }

@@ -20,7 +20,7 @@ import ts from './assets/tech_icons/Frontend/ts.png'
 function Skills(){
 
     useEffect(() => {
-        document.title = "Dave | Skills"
+        document.title = "Kiryll Dave Bangcoyo | Skills"
     })
 
     return(

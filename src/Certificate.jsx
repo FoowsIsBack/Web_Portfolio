@@ -5,6 +5,8 @@ import hacking from './assets/Certificate/1.jpg'
 import webdev from './assets/Certificate/web_dev.jpg'
 import linux from './assets/Certificate/basic_linux.jpg'
 import web_responsive from './assets/Certificate/responsive_webDesign.png'
+import javaOOP from './assets/Certificate/javaOOP.png'
+import python from './assets/Certificate/python.png'
 
 function Certificate(){
 
@@ -16,6 +18,8 @@ function Certificate(){
     const dialogRef1 = useRef(null);
     const dialogRef2 = useRef(null);
     const dialogRef3 = useRef(null);
+    const dialogRef4 = useRef(null);
+    const dialogRef5 = useRef(null);
 
     const openDialog = () => {
         document.body.style.overflow = "hidden";
@@ -33,6 +37,14 @@ function Certificate(){
         document.body.style.overflow = "hidden";
         dialogRef3.current.showModal();
     }
+    const openDialog4 = () => {
+        document.body.style.overflow = "hidden";
+        dialogRef4.current.showModal();
+    };
+    const openDialog5 = () => {
+        document.body.style.overflow = "hidden";
+        dialogRef5.current.showModal();
+    }
 
     const closeDialog = () => {
         dialogRef.current.close();
@@ -48,6 +60,14 @@ function Certificate(){
     };
     const closeDialog3 = () => {
         dialogRef3.current.close();
+        document.body.style.overflow = "";
+    };
+    const closeDialog4 = () => {
+        dialogRef4.current.close();
+        document.body.style.overflow = "";
+    };
+    const closeDialog5 = () => {
+        dialogRef5.current.close();
         document.body.style.overflow = "";
     };
 
@@ -92,12 +112,22 @@ function Certificate(){
                             <img src={linux} alt="linux"/>
                         </div>
                     </div>
-                    <div className={styles.menu3} onClick={openDialog3}>
-                        <div className={styles.web_responsive}>
+                    <div className={styles.menu3}>
+                        <div className={styles.web_responsive} onClick={openDialog3}>
                             <h3>Legacy Responsive Web Design V8</h3>
                             <p>(August 23, 2026)</p>
                             <img src={web_responsive} alt="Web_responsive"/>
-                        </div>                        
+                        </div>
+                        <div className={styles.javaoop} onClick={openDialog4}>
+                            <h3>Java Object-Oriented Programming</h3>
+                            <p>(December 6, 2025)</p>
+                            <img src={javaOOP} alt="javaOOP"/>
+                        </div>
+                        <div className={styles.pythonSE} onClick={openDialog5}>
+                            <h3>Python Software Engineering 1</h3>
+                            <p>(May 18, 2026)</p>
+                            <img src={python} alt="pythonSE"/>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -138,6 +168,26 @@ function Certificate(){
                     <img src={web_responsive} alt="Web_responsive"/>
                     <div className={styles.closer}>
                         <button className={styles} onClick={closeDialog3}>Close</button>
+                    </div>                        
+                </dialog>
+            </div>
+            <div className={styles.popup}>
+                <dialog ref={dialogRef4}>
+                    <h3>Java Object-Oriented Programming</h3>
+                    <p>(December 6, 2025)</p>
+                    <img src={javaOOP} alt="javaOOP"/>
+                    <div className={styles.closer}>
+                        <button className={styles} onClick={closeDialog4}>Close</button>
+                    </div>                        
+                </dialog>
+            </div>
+            <div className={styles.popup}>
+                <dialog ref={dialogRef5}>
+                    <h3>Python Software Engineering 1</h3>
+                    <p>(May 18, 2026)</p>
+                    <img src={python} alt="pythonSE"/>
+                    <div className={styles.closer}>
+                        <button className={styles} onClick={closeDialog5}>Close</button>
                     </div>                        
                 </dialog>
             </div>

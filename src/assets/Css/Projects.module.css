@@ -56,18 +56,18 @@ body{
     width: 80%;
 }
 
-.page, .page1{
+.page, .page1, .page2{
     display: flex;
     gap: 10%;
     font-style: normal;
     align-items: stretch;
 }
 
-.page > a, .page1 > a{
+.page > a, .page1 > a, .page2 > a{
     display: flex;
 }
 
-.page1{
+.page1, .page2{
     margin-top: 50px;
 }
 
@@ -100,7 +100,7 @@ body{
     margin-bottom: 0;
 }
 
-.parking, .calcu, .kirotask, .entrance{
+.parking, .calcu, .kirotask, .entrance, .web_calcu{
     margin-top: 30px;
     padding: 30px;
     width: 550px;
@@ -111,17 +111,17 @@ body{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.parking:active, .calcu:active, .kirotask:active, .entrance:active{
+.parking:active, .calcu:active, .kirotask:active, .entrance:active, .web_calcu:active{
     opacity: 0.8;
 }
 
-.parking:hover, .calcu:hover, .kirotask:hover, .entrance:hover{
+.parking:hover, .calcu:hover, .kirotask:hover, .entrance:hover, .web_calcu:hover{
     transform: scale(1.02);
     box-shadow: 0 12px 25px rgba(0,0,0,0.25);
     border: 1px solid white;
 }
 
-.parking img, .calcu img, .kirotask img, .entrance img{
+.parking img, .calcu img, .kirotask img, .entrance img, .web_calcu img{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,11 +160,11 @@ body{
         margin-right: auto;
     }
 
-    .page, .page1{
+    .page, .page1, .page2{
         gap: 30px;
     }
 
-    .parking, .calcu, .kirotask, .entrance{
+    .parking, .calcu, .kirotask, .entrance, .web_calcu{
         width: 100%;
         min-width: 0;
         box-sizing: border-box;
@@ -199,17 +199,17 @@ body{
         margin: 30px auto 0;
     }
 
-    .page, .page1{
+    .page, .page1, .page2{
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 20px;
     }
 
-    .page1{
+    .page1, .page2{
         margin-top: 20px;
     }
 
-    .parking, .calcu, .kirotask, .entrance{
+    .parking, .calcu, .kirotask, .entrance, .web_calcu{
         width: 100%;
         min-height: 500px;
         padding: 20px;
@@ -217,7 +217,7 @@ body{
         margin-top: 20px;
     }
 
-    .parking h2, .calcu h2, .kirotask h2, .entrance h2{
+    .parking h2, .calcu h2, .kirotask h2, .entrance h2, .web_calcu h2{
         font-size: 20px;
     }
 
@@ -287,20 +287,24 @@ body{
 
     .example1{
         width: 90%;
-        margin: 25px auto 0;
+        margin: 13px auto 0;
     }
 
-    .page, .page1{
+    .page, .page1, .page2{
         display: grid;
         grid-template-columns: 1fr;
         gap: 15px;
     }
 
-    .page1{
+    .page1, .page2{
         margin-top: 0;
     }
 
-    .parking, .calcu, .kirotask, .entrance{
+    .page2{
+        margin-top: 15px;
+    }
+    
+    .parking, .calcu, .kirotask, .entrance, .web_calcu{
         width: 100%;
         min-height: auto;
         padding: 18px;
@@ -308,7 +312,7 @@ body{
         box-sizing: border-box;
     }
 
-    .parking h2, .calcu h2, .kirotask h2, .entrance h2{
+    .parking h2, .calcu h2, .kirotask h2, .entrance h2, .web_calcu h2{
         font-size: 18px;
     }
 
@@ -333,7 +337,7 @@ body{
         font-size: 14px;
     }
 
-    .parking img, .calcu img, .kirotask img, .entrance img{
+    .parking img, .calcu img, .kirotask img, .entrance img, .web_calcu img{
         width: 100%;
         height: auto;
     }
@@ -382,16 +386,16 @@ body{
         gap: 12px;
     }
 
-    .page, .page1{
+    .page, .page1, .page2{
         gap: 12px;
     }
 
-    .parking, .calcu, .kirotask, .entrance{
+    .parking, .calcu, .kirotask, .entrance, .web_calcu{
         padding: 12px;
         margin-top: 12px;
     }
 
-    .parking h2, .calcu h2, .kirotask h2, .entrance h2{
+    .parking h2, .calcu h2, .kirotask h2, .entrance h2, .web_calcu h2{
         font-size: 16px;
     }
 

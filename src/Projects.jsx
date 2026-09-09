@@ -9,7 +9,7 @@ import phantom from './assets/Projects_image/phantom.png'
 function Projects(){
 
     useEffect(() => {
-        document.title = "Dave | Projects"
+        document.title = "Kiryll Dave Bangcoyo | Projects"
     })
 
     return(

@@ -81,12 +81,8 @@ body{
     height: auto;
 }
 
-img[alt="hacking"]{
-    height: 77%;
-}
-
-img[alt="Web_responsive"]{
-    height: 79%;
+img[alt="hacking"], img[alt="Web_responsive"]{
+    height: auto;
 }
 
 .cert h3, p{
@@ -155,4 +151,300 @@ dialog button{
 
 dialog button:hover{
     background-color: rgb(194, 3, 3);
+}
+
+@media(max-width: 1200px){
+
+    .nav{
+        padding: 0 30px;
+    }
+
+    .menu{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu2, .menu3{
+        margin-left: 0;
+        padding: 0 30px;
+        gap: 20px;
+    }
+
+    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE{
+        flex: 1;
+        min-width: 0;
+    }
+}
+
+@media(max-width: 768px){
+
+    .cert{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+
+    .nav{
+        padding: 0 20px;
+    }
+
+    .nav2 ul{
+        gap: 10px;
+    }
+
+    .menu{
+        width: 85%;
+        margin: 40px auto 0;
+    }
+
+    .menu > h1{
+        font-size: 28px;
+    }
+
+    .menu2, .menu3{
+        margin-left: 0;
+        padding: 0 30px;
+        display: contents;
+    }
+
+    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE{
+        width: auto;
+    }
+
+    .cert h3{
+        font-size: 17px;
+    }
+
+    .cert p{
+        font-size: 13px;
+    }
+
+    .resibo img{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    img[alt="hacking"], img[alt="Web_responsive"]{
+        height: auto;
+    }
+
+    dialog{
+        width: 90%;
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    dialog h3{
+        font-size: 20px;
+    }
+
+    dialog p{
+        font-size: 14px;
+    }
+
+    dialog button{
+        width: 90px;
+        font-size: 14px;
+    }
+
+    .ending{
+        margin-top: 250px;
+        padding: 30px 20px;
+    }
+}
+
+@media(max-width: 600px){
+
+    .nav{
+        padding: 0 15px;
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 15px;
+    }
+
+    .nav h1{
+        margin-bottom: 5px;
+    }
+
+    .nav2{
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .nav2 ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav2 ul li{
+        list-style: none;
+    }
+
+    .nav2 a{
+        font-size: 12px;
+    }
+
+    .menu{
+        width: 90%;
+        margin: 30px auto 0;
+    }
+
+    .menu > h1{
+        font-size: 24px;
+    }
+
+    .menu2, .menu3{
+        display: contents;
+    }
+
+    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE{
+        width: auto;
+        box-sizing: border-box;
+    }
+
+    .cert{
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+        gap: 15px;
+    }
+
+    .cert h3{
+        font-size: 16px;
+    }
+
+    .cert p{
+        font-size: 12px;
+        margin-top: -10px;
+    }
+
+    .resibo img{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    img[alt="hacking"], img[alt="Web_responsive"]{
+        height: auto;
+    }
+
+    dialog{
+        width: 90%;
+        max-width: 90%;
+        max-height: 90vh;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    dialog h3{
+        font-size: 17px;
+    }
+
+    dialog p{
+        font-size: 12px;
+    }
+
+    dialog img{
+        width: 100%;
+        height: auto;
+        max-height: 70vh;
+        object-fit: contain;
+    }
+
+    dialog button{
+        width: 85px;
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    .ending{
+        margin-top: 150px;
+        padding: 25px 15px;
+    }
+
+    .ending p{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 380px){
+
+    .nav{
+        padding: 0 10px;
+    }
+
+    .nav h1{
+        font-size: 25px;
+    }
+
+    .nav2 ul{
+        gap: 6px;
+    }
+
+    .nav2 a{
+        font-size: 10px;
+    }
+
+    .menu{
+        width: 92%;
+        margin-top: 25px;
+    }
+
+    .menu > h1{
+        font-size: 21px;
+    }
+
+    .menu2, .menu3{
+        padding: 0 12px;
+        gap: 12px;
+    }
+
+    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE{
+        padding: 8px;
+    }
+
+    .cert h3{
+        font-size: 14px;
+    }
+
+    .cert p{
+        font-size: 11px;
+    }
+
+    dialog{
+        width: 92%;
+        max-width: 92%;
+        padding: 12px;
+    }
+
+    dialog h3{
+        font-size: 15px;
+    }
+
+    dialog p{
+        font-size: 11px;
+    }
+
+    dialog button{
+        width: 75px;
+        padding: 7px;
+        font-size: 12px;
+    }
+
+    .ending{
+        margin-top: 100px;
+        padding: 20px 10px;
+    }
+
+    .ending p{
+        font-size: 10px;
+    }
 }

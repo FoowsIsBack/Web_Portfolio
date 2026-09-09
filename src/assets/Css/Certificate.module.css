@@ -22,8 +22,8 @@ body{
 }
 
 .nav2 a[href="/certificate"]{
-    color: #2bcc0f;
-    border-bottom: 2px solid #2bcc0f;
+    color: rgb(43, 204, 15);
+    border-bottom: 2px solid rgb(43, 204, 15);
     padding-bottom: 5px;
 }
 
@@ -33,7 +33,7 @@ body{
 
 .nav2 > ul li a:hover{
     transition: 0.4s;
-    color: #2bcc0f;
+    color: rgb(43, 204, 15);
 }
 
 .menu{

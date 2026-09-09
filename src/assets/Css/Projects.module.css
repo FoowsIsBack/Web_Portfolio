@@ -22,8 +22,8 @@ body{
 }
 
 .nav2 a[href="/projects"]{
-    color: #2bcc0f;
-    border-bottom: 2px solid #2bcc0f;
+    color: rgb(43, 204, 15);
+    border-bottom: 2px solid rgb(43, 204, 15);
     padding-bottom: 5px;
 }
 
@@ -33,7 +33,7 @@ body{
 
 .nav2 > ul li a:hover{
     transition: 0.4s;
-    color: #2bcc0f;
+    color: rgb(43, 204, 15);
 }
 
 .menu{
@@ -73,9 +73,9 @@ body{
 
 .description > p{
     text-align: center;
-    color: #7F49DA;
-    border: 1px solid #7F49DA;
-    background-color: #0f0322;
+    color: rgb(127, 73, 218);
+    border: 1px solid rgb(127, 73, 218);
+    background-color: rgb(15, 3, 34);
     border-radius: 10px;
     padding: 8px;
     font-size: 15px;
@@ -140,4 +140,284 @@ body{
     margin-top: 5px;
     text-align: center;
     color: white;
+}
+
+@media(max-width: 1200px){
+
+    .nav{
+        padding: 0 30px;
+    }
+
+    .menu{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .example1{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .page, .page1{
+        gap: 30px;
+    }
+
+    .parking, .calcu, .kirotask, .entrance{
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+}
+
+@media(max-width: 768px){
+
+    .nav{
+        padding: 0 20px;
+    }
+
+    .nav2 ul{
+        gap: 10px;
+    }
+
+    .nav2 a{
+        font-size: 14px;
+    }
+
+    .menu{
+        width: 85%;
+        margin: 40px auto 0;
+    }
+
+    .menu > h1{
+        font-size: 28px;
+    }
+
+    .example1{
+        width: 90%;
+        margin: 30px auto 0;
+    }
+
+    .page, .page1{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .page1{
+        margin-top: 20px;
+    }
+
+    .parking, .calcu, .kirotask, .entrance{
+        width: 100%;
+        min-height: 500px;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+    }
+
+    .parking h2, .calcu h2, .kirotask h2, .entrance h2{
+        font-size: 20px;
+    }
+
+    .description{
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .description > p{
+        font-size: 13px;
+        padding: 6px;
+    }
+
+    .description1 > p{
+        font-size: 14px;
+    }
+
+    .ending{
+        margin-top: 150px;
+        padding: 30px 20px;
+    }
+}
+
+@media(max-width: 600px){
+
+    .nav{
+        padding: 0 15px;
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 15px;
+    }
+
+    .nav h1{
+        margin-bottom: 5px;
+    }
+
+    .nav2{
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .nav2 ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav2 ul li{
+        list-style: none;
+    }
+
+    .nav2 a{
+        font-size: 12px;
+    }
+
+    .menu{
+        width: 90%;
+        margin: 30px auto 0;
+    }
+
+    .menu > h1{
+        font-size: 24px;
+    }
+
+    .example1{
+        width: 90%;
+        margin: 25px auto 0;
+    }
+
+    .page, .page1{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .page1{
+        margin-top: 0;
+    }
+
+    .parking, .calcu, .kirotask, .entrance{
+        width: 100%;
+        min-height: auto;
+        padding: 18px;
+        margin-top: 15px;
+        box-sizing: border-box;
+    }
+
+    .parking h2, .calcu h2, .kirotask h2, .entrance h2{
+        font-size: 18px;
+    }
+
+    .description{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .description > p{
+        font-size: 12px;
+        padding: 6px;
+        margin-top: 0;
+    }
+
+    .description1 > p{
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .description1 > h4{
+        font-size: 14px;
+    }
+
+    .parking img, .calcu img, .kirotask img, .entrance img{
+        width: 100%;
+        height: auto;
+    }
+
+    .ending{
+        margin-top: 100px;
+        padding: 25px 15px;
+    }
+
+    .ending p{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 380px){
+
+    .nav{
+        padding: 0 10px;
+        padding-bottom: 12px;
+    }
+
+    .nav h1{
+        font-size: 25px;
+    }
+
+    .nav2 ul{
+        gap: 6px;
+        padding-left: 5px;
+    }
+
+    .nav2 a{
+        font-size: 10px;
+    }
+
+    .menu{
+        width: 92%;
+        margin-top: 25px;
+    }
+
+    .menu > h1{
+        font-size: 21px;
+    }
+
+    .example1{
+        width: 92%;
+        gap: 12px;
+    }
+
+    .page, .page1{
+        gap: 12px;
+    }
+
+    .parking, .calcu, .kirotask, .entrance{
+        padding: 12px;
+        margin-top: 12px;
+    }
+
+    .parking h2, .calcu h2, .kirotask h2, .entrance h2{
+        font-size: 16px;
+    }
+
+    .description{
+        gap: 5px;
+    }
+
+    .description > p{
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .description1 > p{
+        font-size: 11px;
+    }
+
+    .description1 > h4{
+        font-size: 12px;
+    }
+
+    .ending{
+        margin-top: 70px;
+        padding: 20px 10px;
+    }
+
+    .ending p{
+        font-size: 10px;
+    }
 }

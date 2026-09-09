@@ -316,6 +316,7 @@ dialog button:hover{
     }
 
     .cert{
+        margin: 25px auto 0;
         grid-template-columns: 1fr;
         padding: 0 20px;
         gap: 15px;

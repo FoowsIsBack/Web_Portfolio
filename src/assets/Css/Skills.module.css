@@ -14,7 +14,7 @@ body{
 }
 
 .nav{
-    background-color: #01070D;
+    background-color: rgb(1, 7, 13);
     display: flex;
     justify-content: space-between;
     align-items: center;

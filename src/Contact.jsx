@@ -4,7 +4,7 @@ import styles from './assets/Css/Contact.module.css'
 function Contact(){
 
     useEffect(() => {
-        document.title = "Dave | Contact"
+        document.title = "Kiryll Dave Bangcoyo | Contact"
     })
 
     return(

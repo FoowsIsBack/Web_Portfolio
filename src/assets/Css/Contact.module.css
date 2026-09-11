@@ -26,8 +26,8 @@ body{
 }
 
 .nav2 a[href="/contact"]{
-    color: #2bcc0f;
-    border-bottom: 2px solid #2bcc0f;
+    color: rgb(43, 204, 15);
+    border-bottom: 2px solid rgb(43, 204, 15);
     padding-bottom: 5px;
 }
 
@@ -37,17 +37,115 @@ body{
 
 .nav2 > ul li a:hover{
     transition: 0.4s;
-    color: #2bcc0f;
+    color: rgb(43, 204, 15);
 }
 
 .menu{
     margin-top: 3%;
     margin-left: 12%;
     width: 1400px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.709);
 }
 
 .menu > h1{
     text-align: center;
     color: white;
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.menu > p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -15px;
+}
+
+.contact_box{
+    margin-left: 29%;
+    margin-top: 40px;
+    width: 800px;
+    border: 1px solid rgba(128, 128, 128, 0.709);
+    border-radius: 5px;
+    padding: 10px;
+    height: auto;
+    background-color: rgb(1, 7, 13);
+}
+
+.redme > h4{
+    font-size: 15px;
+    color: rgb(158, 154, 154);
+}
+
+.redme{
+    margin-left: 10px;
+    width: 760px;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px solid grey;
+}
+
+.md{
+    color: rgb(72, 71, 71);    
+}
+
+.contact_info{
+    margin-left: 12px;
+    margin-top: 30px;
+}
+
+.contact_info > p{
+    color: rgb(195, 192, 192);
+    font-weight: normal;
+    width: 100%;
+    line-height: 1.8;
+}
+
+.contact_button{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.contact_button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+    cursor: pointer;
+    width: 150px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    transition: 0.3s ease;
+}
+
+.contact_button button i{
+    font-size: 16px;
+}
+
+.contact_button button:nth-child(1):hover{
+    background-color: rgb(234, 67, 53);
+    color: white;
+}
+
+.contact_button button:nth-child(2):hover{
+    background-color: rgb(24, 119, 242);
+    color: white;
+}
+
+.contact_button button:nth-child(3):hover{
+    background-color: rgb(228, 64, 95);
+    color: white;
+}
+
+.contact_button button:nth-child(4):hover{
+    background-color: rgb(43, 204, 15);
+    color: white;
+}
+
+.contact_button button:active{
+    opacity: 0.8;
 }

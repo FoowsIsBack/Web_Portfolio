@@ -45,7 +45,7 @@ function Contact(){
             <div className={styles.resibo}>
                 <div className={styles.menu}>
                     <h1>GET IN TOUCH</h1>
-                    <p>Let's build something together.</p>
+                    <p>Let's build something together</p>
                 </div>
                 <div className={styles.contact_box}>
                     <div className={styles.redme}>

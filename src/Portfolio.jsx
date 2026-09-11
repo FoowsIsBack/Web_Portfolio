@@ -255,7 +255,7 @@ function Portfolio(){
                 <div className={styles.description}>
                   <p>HTML</p>
                   <p>CSS</p>
-                  <p>JacaScript</p>
+                  <p>JavaScript</p>
                 </div>
                 <div className={styles.description1}>
                   <p>Calculator is a simple and interactive web-based calculator designed to perform basic arithmetic operations. It supports addition, subtraction, multiplication, division, decimal values, and parentheses for more flexible calculations. The project focuses on creating a clean and user-friendly interface while implementing functional button interactions and calculation logic.</p>

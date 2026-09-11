@@ -681,6 +681,10 @@ audio::-webkit-media-controls-play-button{
         flex-wrap: wrap;
     }
 
+    a[href="https://github.com/FoowsIsBack"]{
+        margin-left: 10px;
+    }
+
     .message{
         position: absolute;
         right: -10px;

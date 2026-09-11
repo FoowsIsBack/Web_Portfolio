@@ -89,7 +89,7 @@ img[alt="hacking"], img[alt="Web_responsive"]{
     color: rgb(195, 192, 192);
 }
 
-.cert p{
+.cert p, dialog p{
     margin-top: -15px;
 }
 

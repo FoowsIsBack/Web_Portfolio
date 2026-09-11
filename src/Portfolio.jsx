@@ -76,7 +76,7 @@ function Portfolio(){
               <img src="https://img.shields.io/badge/TryHackMe-212C42?logo=tryhackme&logoColor=white" alt="TryHackMe"/>
             </a>
             <a href="https://github.com/FoowsIsBack" target="_blank">
-              <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="github" />
+              <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="Github" />
             </a>
           </div>
         </div>

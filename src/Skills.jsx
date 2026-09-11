@@ -51,7 +51,7 @@ function Skills(){
                         <div className={styles.title}>
                             <h3>FRONTEND</h3>
                         </div>
-                        <div className={styles.tech_stack}>        margin-top: 0;
+                        <div className={styles.tech_stack}>
                             <img src={html} alt="html"/>
                             <img src={css} alt="css"/>
                             <img src={js} alt="js"/>

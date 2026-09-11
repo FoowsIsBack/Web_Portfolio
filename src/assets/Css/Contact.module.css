@@ -149,3 +149,258 @@ body{
 .contact_button button:active{
     opacity: 0.8;
 }
+
+@media(max-width: 1200px){
+
+    .nav{
+        padding: 0 30px;
+    }
+
+    .menu{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact_box{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .redme{
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .contact_info{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+}
+
+@media(max-width: 768px){
+
+    .nav{
+        padding: 0 20px;
+    }
+
+    .nav2 ul{
+        gap: 10px;
+    }
+
+    .nav2 a{
+        font-size: 14px;
+    }
+
+    .menu{
+        width: 90%;
+        margin-top: 40px;
+    }
+
+    .menu > h1{
+        font-size: 36px;
+    }
+
+    .menu > p{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+
+    .contact_box{
+        width: 85%;
+        margin: 30px auto 0;
+        padding: 10px;
+    }
+
+    .redme{
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .redme > h4{
+        font-size: 14px;
+    }
+
+    .contact_info{
+        margin: 25px 12px 0;
+    }
+
+    .contact_info > p{
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .contact_button{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .contact_button button{
+        width: 145px;
+    }
+}
+
+@media(max-width: 600px){
+
+    .start{
+        margin-bottom: 30px;
+    }
+
+    .nav{
+        padding: 0 15px;
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 15px;
+    }
+
+    .nav h1{
+        margin-bottom: 5px;
+    }
+
+    .nav2{
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .nav2 ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav2 ul li{
+        list-style: none;
+    }
+
+    .nav2 a{
+        font-size: 12px;
+    }
+
+    .menu{
+        width: 90%;
+        margin-top: 35px;
+    }
+
+    .menu > h1{
+        font-size: 32px;
+        letter-spacing: 1px;
+    }
+
+    .menu > p{
+        font-size: 14px;
+        margin-top: -8px;
+    }
+
+    .contact_box{
+        width: 88%;
+        margin-top: 30px;
+        padding: 8px;
+    }
+
+    .redme{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .redme > h4{
+        font-size: 13px;
+    }
+
+    .contact_info{
+        margin: 20px 10px 0;
+    }
+
+    .contact_info > p{
+        font-size: 14px;
+        line-height: 1.7;
+        text-align: left;
+    }
+
+    .contact_button{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 25px;
+    }
+
+    .contact_button button{
+        width: 90%;
+        max-width: 300px;
+    }
+}
+
+@media(max-width: 380px){
+
+    .nav{
+        padding: 0 10px;
+    }
+
+    .nav h1{
+        font-size: 25px;
+    }
+
+    .nav2 ul{
+        gap: 6px;
+    }
+
+    .nav2 a{
+        font-size: 10px;
+    }
+
+    .menu{
+        width: 92%;
+        margin-top: 30px;
+    }
+
+    .menu > h1{
+        font-size: 27px;
+    }
+
+    .menu > p{
+        font-size: 13px;
+    }
+
+    .contact_box{
+        width: 88%;
+        margin-top: 25px;
+        padding: 7px;
+    }
+
+    .redme > h4{
+        font-size: 12px;
+    }
+
+    .contact_info{
+        margin: 18px 8px 0;
+    }
+
+    .contact_info > p{
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .contact_button{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .contact_button button{
+        width: 95%;
+        padding: 9px;
+        font-size: 12px;
+    }
+
+    .contact_button button i{
+        font-size: 14px;
+    }
+}

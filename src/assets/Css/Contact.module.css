@@ -266,7 +266,7 @@ body{
 
     .nav2{
         width: 100%;
-        overflow-x: auto;
+        overflow-x: visible;
     }
 
     .nav2 ul{
@@ -350,11 +350,18 @@ body{
     }
 
     .nav2 ul{
-        gap: 6px;
+        gap: 9px;
+        padding-left: 5px;
     }
 
     .nav2 a{
-        font-size: 10px;
+        font-size: 12px;
+    }
+
+    .nav2{
+        width: 100%;
+        overflow-x: visible;
+        margin-bottom: 12px;
     }
 
     .menu{

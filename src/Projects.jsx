@@ -20,6 +20,10 @@ function Projects(){
         window.open("https://github.com/FoowsIsBack/Phantom_L7", "_blank");
     }
 
+    const project_phantomProof = () => {
+        window.open("https://t.me/+c85jONb2GJdmZTZl", "_blank");
+    }
+
     const project_phantomVideo = () => {
         window.open("", "_blank")
     }
@@ -242,6 +246,7 @@ function Projects(){
                     <div className={styles.closer2}>
                         <button onClick={project_phantom}>View Code</button>
                         <button onClick={project_phantomVideo}>Demo Video</button>
+                        <button className={styles.evidence} onClick={project_phantomProof}>Evidence</button>
                         <button onClick={closeDialog1}>Close</button>
                     </div>                     
                 </dialog>

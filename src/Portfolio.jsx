@@ -184,7 +184,7 @@ function Portfolio(){
         </div>
         <div className={styles.example1}>
           <div className={styles.page}>
-            <a href="https://github.com/FoowsIsBack/EVSU_Vehicle_GatePass_System" target='_blank'>
+            {/* <a href="https://github.com/FoowsIsBack/EVSU_Vehicle_GatePass_System" target='_blank'> */}
               <div className={styles.parking}>
                 <img src={parking} alt="parking"/>
                 <h2>EVSU Parking Sticker Management & Verification System</h2>
@@ -197,11 +197,12 @@ function Portfolio(){
                 </div>
                 <div className={styles.description1}>
                   <h4>Under Development</h4>
+                  <hr />
                   <p>EVSU Vehicle GatePass is a web based application designed to simplify the vehicle gate pass request process for campus entry. Users can register their vehicle information and request a digital gate pass, while administrators review and manage all requests through a centralized dashboard.</p>
                 </div>
               </div>
-            </a>
-            <a href="https://github.com/FoowsIsBack/Phantom_L7" target='_blank'>
+            {/* </a> */}
+            {/* <a href="https://github.com/FoowsIsBack/Phantom_L7" target='_blank'> */}
               <div className={styles.calcu}>
                 <img src={phantom} alt="calculator"/>
                 <h2>Phantom DDoS</h2>
@@ -209,14 +210,15 @@ function Portfolio(){
                   <p>Python</p>
                   <p>JavaScript</p> 
                 </div>
-                <div className={styles.description1}>
+                <div className={styles. description1}>
+                  <hr />
                   <p>Phantom is a Python based command line application featuring multiple HTTP and HTTPS request methods, proxy support, multithreading, and an intuitive command line interface (CLI). It is designed to generate high volumes of HTTP/HTTPS traffic for performance evaluation, load testing, and research in authorized environments.</p>
                 </div>
               </div>
-            </a>
+            {/* </a> */}
           </div>
           <div className={styles.page1}>
-            <a href="https://kirotask.vercel.app/" target='_blank'>
+            {/* <a href="https://kirotask.vercel.app/" target='_blank'> */}
               <div className={styles.kirotask}>
                 <img src={kirotask} alt="kirotask"/>
                 <h2>KiroTask</h2>
@@ -225,11 +227,12 @@ function Portfolio(){
                   <p>Flutter</p>
                 </div>
                 <div className={styles.description1}>
+                  <hr />
                   <p>KiroTask is a modern and minimal task management app designed to help users stay organized, focused, and productive. It provides a clean interface with powerful features for managing daily tasks efficiently.</p>
                 </div>
               </div>
-            </a>
-            <a href="https://github.com/FoowsIsBack/Smart_Entrance_Monitoring" target='_blank'>
+            {/* </a> */}
+            {/* <a href="https://github.com/FoowsIsBack/Smart_Entrance_Monitoring" target='_blank'> */}
               <div className={styles.entrance}>
                 <img src={sem} alt="entrance"/>
                 <h2>Smart Entrance Monitoring</h2>
@@ -242,13 +245,14 @@ function Portfolio(){
                 </div>
                 <div className={styles.description1}>
                   <h4>Under Development</h4>
+                  <hr />
                   <p>Smart Entrance Monitoring is an RFID based entrance monitoring system that automatically records users time in and time out through ID card scanning. All attendance logs are displayed in a centralized admin panel, providing accurate, secure, and efficient monitoring of entry and exit records.</p>
                 </div>
               </div>
-            </a>
+            {/* </a> */}
           </div>
           <div className={styles.page2}>
-            <a href="https://github.com/FoowsIsBack/Calculator_HTML" target='_blank'>
+            {/* <a href="https://github.com/FoowsIsBack/Calculator_HTML" target='_blank'> */}
               <div className={styles.web_calcu}>
                 <img src={calculator} alt="web_calculator"/>
                 <h2>Calculator</h2>
@@ -258,10 +262,11 @@ function Portfolio(){
                   <p>JavaScript</p>
                 </div>
                 <div className={styles.description1}>
+                  <hr />
                   <p>Calculator is a simple and interactive web-based calculator designed to perform basic arithmetic operations. It supports addition, subtraction, multiplication, division, decimal values, and parentheses for more flexible calculations. The project focuses on creating a clean and user-friendly interface while implementing functional button interactions and calculation logic.</p>
                 </div>
               </div>
-            </a>
+            {/* </a> */}
           </div>
         </div>
       </div>

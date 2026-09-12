@@ -56,6 +56,10 @@ body{
     width: 80%;
 }
 
+.example1 h2{
+    color: white;
+}
+
 .page, .page1, .page2{
     display: flex;
     gap: 10%;
@@ -93,6 +97,7 @@ body{
     font-weight: normal;
     width: 100%;
     line-height: 1.5;
+    font-size: larger;
 }
 
 .description1 > h4{
@@ -128,6 +133,116 @@ body{
     border-radius: 5px;
     width: 100%;
     height: auto;
+}
+
+.parking2 img, .calcu2 img, .kirotask2 img, .entrance2 img, .web_calcu2 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.parking2 h2, .calcu2 h2, .kirotask2 h2, .entrance2 h2, .web_calcu2 h2{
+    text-align: left;
+}
+
+.popup dialog{
+    width: 750px;
+    max-width: 90%;
+    border: none;
+    border-radius: 15px;
+    padding: 25px;
+    background: rgb(22, 27, 34);
+    color: white;
+    overflow: hidden;
+    outline: none;
+}
+
+.popup dialog::backdrop{  
+    background: rgba(0,0,0,.75);
+    cursor: default;
+}
+
+.popup dialog > img{
+    width: 100%;
+    height: auto;
+}
+
+.popup dialog p{
+    text-align: left;
+    font-size: larger;
+    margin-top: 15px;
+}
+
+.popup hr, .description1 hr{
+    border: 1px solid gray;
+}
+
+.popup h4{
+    text-align: center;font-size: larger;
+}
+
+.popup .description p{
+    font-size: 15px;
+}
+
+.closer1{
+    display: flex;
+    justify-self: center;
+    gap: 30%;
+    width: 60%;
+}
+
+.closer1 button:nth-child(1){
+    background-color: rgb(43, 204, 15);
+}
+
+.closer1 button:nth-child(1):hover{
+    opacity: 0.8;
+    background-color: rgb(43, 204, 15);
+}
+
+.closer2{
+    display: flex;
+    justify-content: center;
+    gap: 18%;
+    width: 100%;
+}
+
+.closer2 button:nth-child(1){
+    background-color: rgb(43, 204, 15);
+}
+
+.closer2 button:nth-child(1):hover{
+    opacity: 0.8;
+    background-color: rgb(43, 204, 15);
+}
+
+.closer2 button:nth-child(2){
+    background-color: rgb(37, 99, 235);
+    color: white;
+}
+
+.closer2 button:nth-child(2):hover{
+    opacity: 0.8;
+    background-color: rgb(37, 99, 235);
+}
+
+.popup dialog button{
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+
+.popup dialog button:hover{
+    background-color: rgb(194, 3, 3);
 }
 
 .ending{

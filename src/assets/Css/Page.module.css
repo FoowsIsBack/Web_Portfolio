@@ -233,6 +233,11 @@ audio::-webkit-media-controls-play-button{
     margin-left: 10px;
 }
 
+.resume:active{
+    background-color: rgb(35, 134, 54);
+    opacity: 0.8;
+}
+
 .resume:hover{
     background-color: rgb(27, 108, 44);
 }
@@ -336,15 +341,11 @@ audio::-webkit-media-controls-play-button{
     min-height: 600px;
     border: 1px solid rgba(128, 128, 128, 0.709);
     border-radius: 5px;
-    cursor: pointer;
+    cursor: normal;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.parking:active, .calcu:active, .kirotask:active, .entrance:active, .web_calcu:active{
-    opacity: 0.8;
-}
-
-.parking:hover, .calcu:hover, .kirotask:hover, .entrance:hover, web_calcu:hover{
+.parking:hover, .calcu:hover, .kirotask:hover, .entrance:hover, .web_calcu:hover{
     transform: scale(1.02);
     box-shadow: 0 12px 25px rgba(0,0,0,0.25);
     border: 1px solid white;
@@ -357,6 +358,10 @@ audio::-webkit-media-controls-play-button{
     border-radius: 5px;
     width: 100%;
     height: auto;
+}
+
+.page h2, .page1 h2, .page2 h2{
+    color: white;
 }
 
 .page, .page1, .page2{
@@ -395,6 +400,10 @@ audio::-webkit-media-controls-play-button{
     font-weight: normal;
     width: 100%;
     line-height: 1.5;
+}
+
+.description1 hr{
+    border: 1px solid gray;
 }
 
 .description1 > h4{

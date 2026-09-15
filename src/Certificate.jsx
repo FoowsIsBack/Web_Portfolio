@@ -7,6 +7,7 @@ import linux from './assets/Certificate/basic_linux.jpg'
 import web_responsive from './assets/Certificate/responsive_webDesign.png'
 import javaOOP from './assets/Certificate/javaOOP.png'
 import python from './assets/Certificate/python.png'
+import AI_literacy from './assets/Certificate/Introduction_to_AI_Literacy_and_Responsible_Use.jpg'
 
 function Certificate(){
 

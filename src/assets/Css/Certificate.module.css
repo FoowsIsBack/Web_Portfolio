@@ -216,7 +216,7 @@ dialog button:hover{
         display: contents;
     }
 
-    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE{
+    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE, .ai{
         width: auto;
     }
 
@@ -312,7 +312,7 @@ dialog button:hover{
         display: contents;
     }
 
-    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE{
+    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE, .ai{
         width: auto;
         box-sizing: border-box;
     }
@@ -421,7 +421,7 @@ dialog button:hover{
         gap: 12px;
     }
 
-    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE{
+    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE, .ai{
         padding: 8px;
     }
 

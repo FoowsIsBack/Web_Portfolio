@@ -130,6 +130,13 @@ function Certificate(){
                             <img src={python} alt="pythonSE"/>
                         </div>
                     </div>
+                    <div className={styles.menu4}>
+                        <div className={styles.ai}>
+                            <h3>Introduction to AI Literacy and Responsible Use</h3>
+                            <p>(Sempter 15, 2026)</p>
+                            <img src={AI_literacy} alt="Introduction_to_AI_Literacy_and_Responsible_Use"/>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className={styles.popup}>

@@ -246,7 +246,7 @@ function Projects(){
                     <div className={styles.closer2}>
                         <button onClick={project_phantom}>View Code</button>
                         <button onClick={project_phantomVideo}>Demo Video</button>
-                        <button className={styles.evidence} onClick={project_phantomProof}>Evidence</button>
+                        <button className={styles.evidence} onClick={project_phantomProof}>Power Proofs</button>
                         <button onClick={closeDialog1}>Close</button>
                     </div>                     
                 </dialog>

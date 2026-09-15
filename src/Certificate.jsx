@@ -21,6 +21,7 @@ function Certificate(){
     const dialogRef3 = useRef(null);
     const dialogRef4 = useRef(null);
     const dialogRef5 = useRef(null);
+    const dialogRef6 = useRef(null);
 
     const openDialog = () => {
         document.body.style.overflow = "hidden";
@@ -46,6 +47,10 @@ function Certificate(){
         document.body.style.overflow = "hidden";
         dialogRef5.current.showModal();
     }
+    const openDialog6 = () => {
+        document.body.style.overflow = "hidden";
+        dialogRef6.current.showModal();
+    }
 
     const closeDialog = () => {
         dialogRef.current.close();
@@ -69,6 +74,10 @@ function Certificate(){
     };
     const closeDialog5 = () => {
         dialogRef5.current.close();
+        document.body.style.overflow = "";
+    };
+    const closeDialog6 = () => {
+        dialogRef6.current.close();
         document.body.style.overflow = "";
     };
 
@@ -131,9 +140,9 @@ function Certificate(){
                         </div>
                     </div>
                     <div className={styles.menu4}>
-                        <div className={styles.ai}>
+                        <div className={styles.ai} onClick={openDialog6}>
                             <h3>Introduction to AI Literacy and Responsible Use</h3>
-                            <p>(Sempter 15, 2026)</p>
+                            <p>(September 15, 2026)</p>
                             <img src={AI_literacy} alt="Introduction_to_AI_Literacy_and_Responsible_Use"/>
                         </div>
                     </div>
@@ -196,6 +205,16 @@ function Certificate(){
                     <img src={python} alt="pythonSE"/>
                     <div className={styles.closer}>
                         <button className={styles} onClick={closeDialog5}>Close</button>
+                    </div>                        
+                </dialog>
+            </div>
+            <div className={styles.popup}>
+                <dialog ref={dialogRef6}>
+                    <h3>Introduction to AI Literacy and Responsible Use</h3>
+                    <p>(September 15, 2026)</p>
+                    <img src={AI_literacy} alt="Introduction_to_AI_Literacy_and_Responsible_Use"/>
+                    <div className={styles.closer}>
+                        <button className={styles} onClick={closeDialog6}>Close</button>
                     </div>                        
                 </dialog>
             </div>

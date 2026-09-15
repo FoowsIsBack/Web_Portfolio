@@ -48,7 +48,7 @@ body{
     color: white;
 }
 
-.menu2, .menu3{
+.menu2, .menu3, .menu4{
     margin-left: -50px;
     margin-top: 30px;
     display: flex;
@@ -56,7 +56,7 @@ body{
     gap: 2%;
 }
 
-.hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE{
+.hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE, .ai{
     padding: 10px;
     border: 1px solid grey;
     border-radius: 5px;
@@ -65,13 +65,13 @@ body{
     cursor: pointer;
 }
 
-.hacking:hover, .webdev:hover, .linux:hover, .web_responsive:hover, .javaoop:hover, .pythonSE:hover{
+.hacking:hover, .webdev:hover, .linux:hover, .web_responsive:hover, .javaoop:hover, .pythonSE:hover, .ai:hover{
     border: 1px solid white;
     transform: scale(1.02);
     box-shadow: 0 12px 25px rgba(0,0,0,0.25);
 }
 
-.hacking:hover h3, .webdev:hover h3, .linux:hover h3, .web_responsive:hover h3, .javaoop:hover h3, .pythonSE:hover h3{
+.hacking:hover h3, .webdev:hover h3, .linux:hover h3, .web_responsive:hover h3, .javaoop:hover h3, .pythonSE:hover h3, .ai:hover h3{
     color: white;
 }
 
@@ -166,7 +166,7 @@ dialog button:hover{
         margin-right: auto;
     }
 
-    .menu2, .menu3{
+    .menu2, .menu3, .menu4{
         margin-left: 0;
         padding: 0 30px;
         gap: 20px;
@@ -210,7 +210,7 @@ dialog button:hover{
         font-size: 28px;
     }
 
-    .menu2, .menu3{
+    .menu2, .menu3, .menu4{
         margin-left: 0;
         padding: 0 30px;
         display: contents;
@@ -308,7 +308,7 @@ dialog button:hover{
         font-size: 24px;
     }
 
-    .menu2, .menu3{
+    .menu2, .menu3, .menu4{
         display: contents;
     }
 
@@ -416,7 +416,7 @@ dialog button:hover{
         font-size: 21px;
     }
 
-    .menu2, .menu3{
+    .menu2, .menu3, .menu4{
         padding: 0 12px;
         gap: 12px;
     }

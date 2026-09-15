@@ -508,121 +508,123 @@ audio::-webkit-media-controls-play-button{
 
 @media(max-width: 1200px){
 
-    .nav{
-        padding: 0 10px;
-    }
-
-    .nav h1{
-        font-size: 25px;
-    }
-
-    .nav2 ul{
-        gap: 6px;
-    }
-
-    .nav2 a{
-        font-size: 10px;
-    }
-
     .main{
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        gap: 8%;
+        width: min(1200px, 88%);
+        margin: 80px auto 0;
+        box-sizing: border-box;
+        gap: 70px;
+    }
+
+    .left{
+        flex: 0 0 310px;
+        min-width: 0;
+
     }
 
     img[alt="profile_pic"]{
-        width: 260px;
-    }
-
-    img[alt="message"]{
-        position: static;
-        width: 18px;
-        height: 18px;
-    }
-
-    .profile{
-        position: relative;
-        width: max-content;
+        width: 310px;
         max-width: 100%;
-        margin: 0 auto;
-        position: sticky;
-    }
-
-    .message{
-        position: absolute;
-        right: -10px;
-        bottom: 25%;
-        top: auto;
-        left: auto;
-        transform: none;
     }
 
     .redme{
         width: 100%;
+        max-width: 100%;
         box-sizing: border-box;
     }
 
     .info{
+        flex: 1;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .info2{
         width: 100%;
         box-sizing: border-box;
     }
 
+    .info2 > p{
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .github{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .github_graph{
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+        box-sizing: border-box;
+    }
+
     .skol_info{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        width: min(1200px, 88%);
+        margin: 140px auto 0;
+        box-sizing: border-box;
     }
 
     .skol_info > h1{
-        margin-left: 50px;
+        margin-left: 0;
     }
 
     .experience{
-        margin-right: 50px;
+        margin-right: 0;
     }
 
     .school{
-        margin-left: 10%;
+        width: min(1000px, 75%);
+        margin: 60px auto 0;
+        box-sizing: border-box;
     }
 
     .menu{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        width: min(1200px, 88%);
+        margin: 140px auto 0;
+        box-sizing: border-box;
     }
 
     .example{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        gap: 30px;
+        width: min(1200px, 88%);
+        margin: 30px auto 0;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 25px;
+        box-sizing: border-box;
     }
 
     .frontend, .backend, .database{
-        width: 31%;
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
     }
 
     .example img{
         margin-left: 15px;
-        width: 40px;
-        padding: 12px;
     }
 
     .example1{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        width: min(1200px, 88%);
+        margin: 30px auto 0;
+        box-sizing: border-box;
     }
 
-    .page, .page1 .page2{
-        gap: 30px;
+    .page, .page1, .page2{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 25px;
     }
 
     .parking, .calcu, .kirotask, .entrance, .web_calcu{
         width: 100%;
         min-width: 0;
         box-sizing: border-box;
+    }
+
+    .ending{
+        margin-top: 180px;
     }
 }
 

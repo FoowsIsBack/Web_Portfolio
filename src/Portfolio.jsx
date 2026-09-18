@@ -90,7 +90,7 @@ function Portfolio(){
             </div>
           </div>
           <div className={styles.info2}>
-            <h3>Full-Stack Developer <span className={styles.spacer}>|</span><button className={styles.resume}>Resume</button></h3>
+            <h3>Web Developer <span className={styles.spacer}>|</span><button className={styles.resume}>Resume</button></h3>
             <p>I’m a passionate developer focused on building practical, user friendly web applications. I’m continuously learning new technologies and improving my skills in software and web development.</p>
           </div>
             <div className={styles.github}>

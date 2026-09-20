@@ -29,6 +29,7 @@ import react1 from './assets/tech_icons/Frameworks/react.png'
 import location from './assets/image/location.png'
 import laravel from './assets/tech_icons/Backend/laravel.png'
 import typescript from './assets/tech_icons/Frontend/ts.png'
+import webCTF from './assets/Projects_image/webCTF.png'
 
 
 function Portfolio(){
@@ -267,6 +268,20 @@ function Portfolio(){
                 </div>
               </div>
             {/* </a> */}
+            <div className={styles.web_CTF}>
+              <img src={webCTF} alt="webCTF"/>
+              <h2>WebCTF Challenge Hub</h2>
+              <div className={styles.description}>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>Php</p>
+              </div>
+              <div className={styles.description1}>
+                <hr />
+                <p>Put your hacking skills to the test. Discover hidden vulnerabilities, crack complex codes, and submit flags inside realistic simulated environments designed to challenge and sharpen your real world cybersecurity, pentesting, and problem solving capabilities.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

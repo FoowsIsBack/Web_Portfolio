@@ -105,7 +105,7 @@ body{
     margin-bottom: 0;
 }
 
-.parking, .calcu, .kirotask, .entrance, .web_calcu{
+.parking, .calcu, .kirotask, .entrance, .web_calcu, .web_CTF{
     margin-top: 30px;
     padding: 30px;
     width: 550px;
@@ -116,17 +116,17 @@ body{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.parking:active, .calcu:active, .kirotask:active, .entrance:active, .web_calcu:active{
+.parking:active, .calcu:active, .kirotask:active, .entrance:active, .web_calcu:active, .web_CTF:active{
     opacity: 0.8;
 }
 
-.parking:hover, .calcu:hover, .kirotask:hover, .entrance:hover, .web_calcu:hover{
+.parking:hover, .calcu:hover, .kirotask:hover, .entrance:hover, .web_calcu:hover, .web_CTF:hover{
     transform: scale(1.02);
     box-shadow: 0 12px 25px rgba(0,0,0,0.25);
     border: 1px solid white;
 }
 
-.parking img, .calcu img, .kirotask img, .entrance img, .web_calcu img{
+.parking img, .calcu img, .kirotask img, .entrance img, .web_calcu img, .web_CTF img{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +135,7 @@ body{
     height: auto;
 }
 
-.parking2 img, .calcu2 img, .kirotask2 img, .entrance2 img, .web_calcu2 img{
+.parking2 img, .calcu2 img, .kirotask2 img, .entrance2 img, .web_calcu2 img, .web_calcu2 img{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,7 +144,7 @@ body{
     height: auto;
 }
 
-.parking2 h2, .calcu2 h2, .kirotask2 h2, .entrance2 h2, .web_calcu2 h2{
+.parking2 h2, .calcu2 h2, .kirotask2 h2, .entrance2 h2, .web_calcu2 h2, .web_calcu2 h2{
     text-align: left;
 }
 
@@ -305,7 +305,7 @@ body{
         gap: 30px;
     }
 
-    .parking, .calcu, .kirotask, .entrance, .web_calcu{
+    .parking, .calcu, .kirotask, .entrance, .web_calcu, .web_CTF{
         width: 100%;
         min-width: 0;
         box-sizing: border-box;
@@ -350,7 +350,7 @@ body{
         margin-top: 20px;
     }
 
-    .parking, .calcu, .kirotask, .entrance, .web_calcu{
+    .parking, .calcu, .kirotask, .entrance, .web_calcu, .web_CTF{
         width: 100%;
         min-height: 500px;
         padding: 20px;
@@ -358,7 +358,7 @@ body{
         margin-top: 20px;
     }
 
-    .parking h2, .calcu h2, .kirotask h2, .entrance h2, .web_calcu h2{
+    .parking h2, .calcu h2, .kirotask h2, .entrance h2, .web_calcu h2, .web_CTF h2{
         font-size: 20px;
     }
 
@@ -471,7 +471,7 @@ body{
         margin-top: 15px;
     }
     
-    .parking, .calcu, .kirotask, .entrance, .web_calcu{
+    .parking, .calcu, .kirotask, .entrance, .web_calcu, .web_CTF{
         width: 100%;
         min-height: auto;
         padding: 18px;
@@ -479,7 +479,7 @@ body{
         box-sizing: border-box;
     }
 
-    .parking h2, .calcu h2, .kirotask h2, .entrance h2, .web_calcu h2{
+    .parking h2, .calcu h2, .kirotask h2, .entrance h2, .web_calcu h2, .web_CTF h2{
         font-size: 18px;
     }
 
@@ -504,7 +504,7 @@ body{
         font-size: 14px;
     }
 
-    .parking img, .calcu img, .kirotask img, .entrance img, .web_calcu img{
+    .parking img, .calcu img, .kirotask img, .entrance img, .web_calcu img, .web_CTF img{
         width: 100%;
         height: auto;
     }
@@ -593,12 +593,12 @@ body{
         gap: 12px;
     }
 
-    .parking, .calcu, .kirotask, .entrance, .web_calcu{
+    .parking, .calcu, .kirotask, .entrance, .web_calcu, .web_CTF{
         padding: 12px;
         margin-top: 12px;
     }
 
-    .parking h2, .calcu h2, .kirotask h2, .entrance h2, .web_calcu h2{
+    .parking h2, .calcu h2, .kirotask h2, .entrance h2, .web_calcu h2, .web_CTF h2{
         font-size: 16px;
     }
 

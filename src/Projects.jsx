@@ -5,6 +5,7 @@ import calculator from './assets/Projects_image/calculator.png'
 import kirotask from './assets/Projects_image/kirotask.png'
 import sem from './assets/Projects_image/sem.png'
 import phantom from './assets/Projects_image/phantom.png'
+import webCTF from './assets/Projects_image/webCTF.png'
 
 function Projects(){
 
@@ -44,11 +45,16 @@ function Projects(){
         window.open("https://calculator-html-dave.vercel.app/", "_blank");
     }
 
+    const project_webCTF = () => {
+        window.open("https://github.com/FoowsIsBack/WebCTF", "_blank");
+    }
+
     const dialogRef = useRef(null);
     const dialogRef1 = useRef(null);
     const dialogRef2 = useRef(null);
     const dialogRef3 = useRef(null);
     const dialogRef4 = useRef(null);
+    const dialogRef5 = useRef(null);
 
     const openDialog = () => {
         document.body.style.overflow = "hidden";
@@ -70,6 +76,10 @@ function Projects(){
         document.body.style.overflow = "hidden";
         dialogRef4.current.showModal();
     };
+    const openDialog5 = () => {
+        document.body.style.overflow = "hidden";
+        dialogRef5.current.showModal();
+    };
 
     const closeDialog = () => {
         dialogRef.current.close();
@@ -89,6 +99,10 @@ function Projects(){
     };
     const closeDialog4 = () => {
         dialogRef4.current.close();
+        document.body.style.overflow = "";
+    };
+    const closeDialog5 = () => {
+        dialogRef5.current.close();
         document.body.style.overflow = "";
     };
 
@@ -201,6 +215,20 @@ function Projects(){
                         </div>
                     </div>
                     {/* </a> */}
+                    <div className={styles.web_CTF} onClick={openDialog5}>                   
+                        <img src={webCTF} alt="webCTF"/>
+                        <h2>WebCTF Challenge Hub</h2>
+                        <div className={styles.description}>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>JavaScript</p>
+                            <p>Php</p>
+                        </div>
+                        <div className={styles.description1}>
+                            <hr />
+                            <p>Put your hacking skills to the test. Discover hidden vulnerabilities, crack complex codes, and submit flags inside realistic simulated environments designed to challenge and sharpen your real world cybersecurity, pentesting, and problem-solving capabilities.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className={styles.popup}>
@@ -317,6 +345,30 @@ function Projects(){
                         <button onClick={project_calculator}>View Code</button>
                         <button onClick={project_calculatorLive}>Live Demo</button>
                         <button onClick={closeDialog4}>Close</button>
+                    </div>               
+                </dialog>
+            </div>
+            <div className={styles.popup}>
+                <dialog ref={dialogRef5}>
+                    <div className={styles.web_CTF2} onClick={openDialog5}>                   
+                        <img src={webCTF} alt="webCTF"/>
+                        <h2>WebCTF Challenge Hub</h2>
+                        <div className={styles.description}>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>JavaScript</p>
+                            <p>Php</p>
+                        </div>
+                        <div className={styles.description1}>
+                            <hr />
+                            <p>Put your hacking skills to the test. Discover hidden vulnerabilities, crack complex codes, and submit flags inside realistic simulated environments designed to challenge and sharpen your real world cybersecurity, pentesting, and problem solving capabilities.</p>
+                        </div>
+                    </div>
+                    <hr />  
+                    <div className={styles.closer2}>
+                        <button onClick={project_calculator}>View Code</button>
+                        <button>Live Demo</button>
+                        <button onClick={closeDialog5}>Close</button>
                     </div>               
                 </dialog>
             </div>

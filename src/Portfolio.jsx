@@ -252,37 +252,6 @@ function Portfolio(){
               </div>
             {/* </a> */}
           </div>
-          <div className={styles.page2}>
-            {/* <a href="https://github.com/FoowsIsBack/Calculator_HTML" target='_blank'> */}
-              <div className={styles.web_calcu}>
-                <img src={calculator} alt="web_calculator"/>
-                <h2>Calculator</h2>
-                <div className={styles.description}>
-                  <p>HTML</p>
-                  <p>CSS</p>
-                  <p>JavaScript</p>
-                </div>
-                <div className={styles.description1}>
-                  <hr />
-                  <p>Calculator is a simple and interactive web-based calculator designed to perform basic arithmetic operations. It supports addition, subtraction, multiplication, division, decimal values, and parentheses for more flexible calculations. The project focuses on creating a clean and user-friendly interface while implementing functional button interactions and calculation logic.</p>
-                </div>
-              </div>
-            {/* </a> */}
-            <div className={styles.web_CTF}>
-              <img src={webCTF} alt="webCTF"/>
-              <h2>WebCTF Challenge Hub</h2>
-              <div className={styles.description}>
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>JavaScript</p>
-                <p>Php</p>
-              </div>
-              <div className={styles.description1}>
-                <hr />
-                <p>Put your hacking skills to the test. Discover hidden vulnerabilities, crack complex codes, and submit flags inside realistic simulated environments designed to challenge and sharpen your real world cybersecurity, pentesting, and problem solving capabilities.</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       <div className={styles.ending}>

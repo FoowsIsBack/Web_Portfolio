@@ -16,6 +16,8 @@ import java from './assets/tech_icons/Backend/java.png'
 import react1 from './assets/tech_icons/Frameworks/react.png'
 import laravel from './assets/tech_icons/Backend/laravel.png'
 import ts from './assets/tech_icons/Frontend/ts.png'
+import sqlite from './assets/tech_icons/Backend/sqlite.png'
+import supabase from './assets/tech_icons/Backend/supabase.png'
 
 function Skills(){
 
@@ -71,6 +73,8 @@ function Skills(){
                             <img src={fastapi} alt="fastapi"/>
                             <img src={mysql} alt="mysql"/>
                             <img src={postgresql} alt="postgresql"/>
+                            <img src={sqlite} alt="sqlite"/>
+                            <img src={supabase} alt="supabase"/>
                         </div>
                     </div>
                     <div className={styles.database}>

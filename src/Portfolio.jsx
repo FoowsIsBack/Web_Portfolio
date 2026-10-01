@@ -19,7 +19,6 @@ import git from './assets/tech_icons/Developer_Tools/git.png'
 import github from './assets/tech_icons/Developer_Tools/github.png'
 import postman from './assets/tech_icons/Developer_Tools/postman.png'
 import parking from './assets/Projects_image/evsupsm.png'
-import calculator from './assets/Projects_image/calculator.png'
 import kirotask from './assets/Projects_image/kirotask.png'
 import sem from './assets/Projects_image/sem.png'
 import phantom from './assets/Projects_image/phantom.png'
@@ -29,8 +28,8 @@ import react1 from './assets/tech_icons/Frameworks/react.png'
 import location from './assets/image/location.png'
 import laravel from './assets/tech_icons/Backend/laravel.png'
 import typescript from './assets/tech_icons/Frontend/ts.png'
-import webCTF from './assets/Projects_image/webCTF.png'
-
+import sqlite from './assets/tech_icons/Backend/sqlite.png'
+import supabase from './assets/tech_icons/Backend/supabase.png'
 
 function Portfolio(){
   return(
@@ -161,6 +160,8 @@ function Portfolio(){
                 <img src={fastapi} alt="fastapi"/>
                 <img src={mysql} alt="mysql"/>
                 <img src={postgresql} alt="postgresql"/>
+                <img src={sqlite} alt="sqlite"/>
+                <img src={supabase} alt="supabase"/>
               </div>
           </div>
           <div className={styles.database}>

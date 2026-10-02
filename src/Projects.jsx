@@ -226,7 +226,7 @@ function Projects(){
                         </div>
                         <div className={styles.description1}>
                             <hr />
-                            <p>Put your hacking skills to the test. Discover hidden vulnerabilities, crack complex codes, and submit flags inside realistic simulated environments designed to challenge and sharpen your real world cybersecurity, pentesting, and problem-solving capabilities.</p>
+                            <p>Put your hacking skills to the test. Discover hidden vulnerabilities, crack complex codes, and submit flags inside realistic simulated environments designed to challenge and sharpen your real world cybersecurity, pentesting, and problem solving capabilities.</p>
                         </div>
                     </div>
                 </div>

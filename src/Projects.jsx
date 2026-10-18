@@ -366,7 +366,7 @@ function Projects(){
                     </div>
                     <hr />  
                     <div className={styles.closer2}>
-                        <button onClick={project_calculator}>View Code</button>
+                        <button onClick={project_webCTF}>View Code</button>
                         <button>Live Demo</button>
                         <button onClick={closeDialog5}>Close</button>
                     </div>               

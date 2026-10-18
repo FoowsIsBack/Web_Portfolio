@@ -49,6 +49,10 @@ function Projects(){
         window.open("https://github.com/FoowsIsBack/WebCTF", "_blank");
     }
 
+    const live_webCTF = () => {
+        window.open("https://webctf.wasmer.app/", "_blank");
+    }
+
     const dialogRef = useRef(null);
     const dialogRef1 = useRef(null);
     const dialogRef2 = useRef(null);
@@ -367,7 +371,7 @@ function Projects(){
                     <hr />  
                     <div className={styles.closer2}>
                         <button onClick={project_webCTF}>View Code</button>
-                        <button>Live Demo</button>
+                        <button onClick={live_webCTF}>Live Demo</button>
                         <button onClick={closeDialog5}>Close</button>
                     </div>               
                 </dialog>

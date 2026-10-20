@@ -56,7 +56,7 @@ body{
     gap: 2%;
 }
 
-.hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE, .ai{
+.hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE, .ai, .forex{
     padding: 10px;
     border: 1px solid grey;
     border-radius: 5px;
@@ -65,13 +65,13 @@ body{
     cursor: pointer;
 }
 
-.hacking:hover, .webdev:hover, .linux:hover, .web_responsive:hover, .javaoop:hover, .pythonSE:hover, .ai:hover{
+.hacking:hover, .webdev:hover, .linux:hover, .web_responsive:hover, .javaoop:hover, .pythonSE:hover, .ai:hover, .forex:hover{
     border: 1px solid white;
     transform: scale(1.02);
     box-shadow: 0 12px 25px rgba(0,0,0,0.25);
 }
 
-.hacking:hover h3, .webdev:hover h3, .linux:hover h3, .web_responsive:hover h3, .javaoop:hover h3, .pythonSE:hover h3, .ai:hover h3{
+.hacking:hover h3, .webdev:hover h3, .linux:hover h3, .web_responsive:hover h3, .javaoop:hover h3, .pythonSE:hover h3, .ai:hover h3, .forex h3{
     color: white;
 }
 
@@ -172,7 +172,7 @@ dialog button:hover{
         gap: 20px;
     }
 
-    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE{
+    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE, .ai, .forex{
         flex: 1;
         min-width: 0;
     }
@@ -216,7 +216,7 @@ dialog button:hover{
         display: contents;
     }
 
-    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE, .ai{
+    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE, .ai, .forex{
         width: auto;
     }
 
@@ -312,7 +312,7 @@ dialog button:hover{
         display: contents;
     }
 
-    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE, .ai{
+    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE, .ai, .forex{
         width: auto;
         box-sizing: border-box;
     }
@@ -421,7 +421,7 @@ dialog button:hover{
         gap: 12px;
     }
 
-    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE, .ai{
+    .hacking, .webdev, .linux, .web_responsive, .javaoop, .pythonSE, .ai, .forex{
         padding: 8px;
     }
 

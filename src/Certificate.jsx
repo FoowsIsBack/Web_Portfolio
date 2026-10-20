@@ -8,6 +8,7 @@ import web_responsive from './assets/Certificate/responsive_webDesign.png'
 import javaOOP from './assets/Certificate/javaOOP.png'
 import python from './assets/Certificate/python.png'
 import AI_literacy from './assets/Certificate/Introduction_to_AI_Literacy_and_Responsible_Use.jpg'
+import forex from './assets/Certificate/forex.png'
 
 function Certificate(){
 
@@ -22,6 +23,7 @@ function Certificate(){
     const dialogRef4 = useRef(null);
     const dialogRef5 = useRef(null);
     const dialogRef6 = useRef(null);
+    const dialogRef7 = useRef(null);
 
     const openDialog = () => {
         document.body.style.overflow = "hidden";
@@ -51,6 +53,10 @@ function Certificate(){
         document.body.style.overflow = "hidden";
         dialogRef6.current.showModal();
     }
+    const openDialog7 = () => {
+        document.body.style.overflow = "hidden";
+        dialogRef7.current.showModal();
+    }
 
     const closeDialog = () => {
         dialogRef.current.close();
@@ -78,6 +84,10 @@ function Certificate(){
     };
     const closeDialog6 = () => {
         dialogRef6.current.close();
+        document.body.style.overflow = "";
+    };
+    const closeDialog7 = () => {
+        dialogRef7.current.close();
         document.body.style.overflow = "";
     };
 
@@ -144,6 +154,11 @@ function Certificate(){
                             <h3>Introduction to AI Literacy and Responsible Use</h3>
                             <p>(September 15, 2026)</p>
                             <img src={AI_literacy} alt="Introduction_to_AI_Literacy_and_Responsible_Use"/>
+                        </div>
+                        <div className={styles.forex} onClickCapture={openDialog7}>
+                            <h3>Forex Trading Workshop</h3>
+                            <p>(October 12-17, 2026)</p>
+                            <img src={forex} alt="forex_trading_workshop"/>
                         </div>
                     </div>
                 </div>
@@ -216,6 +231,16 @@ function Certificate(){
                     <div className={styles.closer}>
                         <button className={styles} onClick={closeDialog6}>Close</button>
                     </div>                        
+                </dialog>
+            </div>
+            <div className={styles.popup}>
+                <dialog ref={dialogRef7}>
+                    <h3>Forex Trading Workshop</h3>
+                    <p>(October 12-17, 2026)</p>
+                    <img src={forex} alt="forex_trading_workshop"/>
+                    <div className={styles.closer}>
+                        <button className={styles} onClick={closeDialog7}>Close</button>
+                    </div>  
                 </dialog>
             </div>
             <div className={styles.ending}>

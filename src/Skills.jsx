@@ -18,6 +18,7 @@ import laravel from './assets/tech_icons/Backend/laravel.png'
 import ts from './assets/tech_icons/Frontend/ts.png'
 import sqlite from './assets/tech_icons/Backend/sqlite.png'
 import supabase from './assets/tech_icons/Backend/supabase.png'
+import expo from './assets/tech_icons/Frontend/expo.png'
 
 function Skills(){
 
@@ -59,6 +60,7 @@ function Skills(){
                             <img src={js} alt="js"/>
                             <img src={react1} alt="react"/>
                             <img src={ts} alt="typescript"/>
+                            <img src={expo} alt="expo" />
                         </div>
                     </div>
                     <div className={styles.backend}>

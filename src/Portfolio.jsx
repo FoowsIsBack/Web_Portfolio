@@ -30,6 +30,7 @@ import laravel from './assets/tech_icons/Backend/laravel.png'
 import typescript from './assets/tech_icons/Frontend/ts.png'
 import sqlite from './assets/tech_icons/Backend/sqlite.png'
 import supabase from './assets/tech_icons/Backend/supabase.png'
+import expo from './assets/tech_icons/Frontend/expo.png'
 
 function Portfolio(){
   return(
@@ -146,6 +147,7 @@ function Portfolio(){
               <img src={js} alt="js"/>
               <img src={react1} alt="react"/>
               <img src={typescript} alt="typescript"/>
+              <img src={expo} alt="expo"/>
             </div>
           </div>
           <div className={styles.backend}>

@@ -60,7 +60,7 @@ function Skills(){
                             <img src={js} alt="js"/>
                             <img src={react1} alt="react"/>
                             <img src={ts} alt="typescript"/>
-                            <img src={expo} alt="expo" />
+                            <img src={expo} alt="expo"/>
                         </div>
                     </div>
                     <div className={styles.backend}>
